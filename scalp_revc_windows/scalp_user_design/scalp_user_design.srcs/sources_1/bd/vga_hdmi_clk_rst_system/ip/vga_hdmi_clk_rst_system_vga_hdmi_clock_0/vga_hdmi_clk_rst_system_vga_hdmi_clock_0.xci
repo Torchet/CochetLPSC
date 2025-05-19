@@ -4,7 +4,7 @@
     "xci_name": "vga_hdmi_clk_rst_system_vga_hdmi_clock_0",
     "cell_name": "vga_hdmi_clock",
     "component_reference": "xilinx.com:ip:clk_wiz:6.0",
-    "ip_revision": "13",
+    "ip_revision": "15",
     "gen_directory": "../../../../../../scalp_user_design.gen/sources_1/bd/vga_hdmi_clk_rst_system/ip/vga_hdmi_clk_rst_system_vga_hdmi_clock_0",
     "parameters": {
       "component_parameters": {
@@ -49,7 +49,7 @@
         "CLKIN2_UI_JITTER": [ { "value": "0.010", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "PRIM_IN_JITTER": [ { "value": "0.010", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "SECONDARY_IN_JITTER": [ { "value": "0.010", "resolve_type": "user", "format": "float", "usage": "all" } ],
-        "CLKIN1_JITTER_PS": [ { "value": "80.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "CLKIN1_JITTER_PS": [ { "value": "80.0", "value_src": "user", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "CLKIN2_JITTER_PS": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "CLKOUT1_USED": [ { "value": "true", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "CLKOUT2_USED": [ { "value": "true", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -160,7 +160,7 @@
         "MMCM_CLKFBOUT_MULT_F": [ { "value": "48.000", "value_src": "user", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "MMCM_CLKFBOUT_PHASE": [ { "value": "0.000", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "MMCM_CLKFBOUT_USE_FINE_PS": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
-        "MMCM_CLKIN1_PERIOD": [ { "value": "8.000", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "MMCM_CLKIN1_PERIOD": [ { "value": "8.000", "value_src": "user", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "MMCM_CLKIN2_PERIOD": [ { "value": "10.000", "resolve_type": "user", "format": "float", "usage": "all" } ],
         "MMCM_CLKOUT4_CASCADE": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "MMCM_CLOCK_HOLD": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -598,12 +598,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "13" } ],
+        "IPREVISION": [ { "value": "15" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../scalp_user_design.gen/sources_1/bd/vga_hdmi_clk_rst_system/ip/vga_hdmi_clk_rst_system_vga_hdmi_clock_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },
@@ -637,7 +637,7 @@
             "FREQ_HZ": [ { "value": "125000000", "value_src": "user_prop", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
             "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
             "PHASE": [ { "value": "0.0", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
-            "CLK_DOMAIN": [ { "value": "vga_hdmi_clk_rst_system_PsClockxCI", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "vga_hdmi_clk_rst_system_PsClockxCI", "value_src": "default_prop", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "ASSOCIATED_BUSIF": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],

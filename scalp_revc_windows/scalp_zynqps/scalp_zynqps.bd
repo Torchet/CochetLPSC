@@ -1,13 +1,13 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xFE3D591F49CBC685",
+      "boundary_crc": "0xFE3D591FE748C4CA",
       "device": "xc7z015clg485-2",
       "name": "scalp_zynqps",
       "pfm_name": "hepia:scalp:scalp_zynq_user_pltfm:1.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2023.2",
+      "tool_version": "2024.2",
       "validated": "true"
     },
     "design_tree": {
@@ -976,9 +976,9 @@
     "components": {
       "gnd_constant": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "ip_revision": "8",
+        "ip_revision": "9",
         "xci_name": "scalp_zynqps_gnd_constant_0",
-        "xci_path": "ip/scalp_zynqps_gnd_constant_0/scalp_zynqps_gnd_constant_0.xci",
+        "xci_path": "ip\\scalp_zynqps_gnd_constant_0\\scalp_zynqps_gnd_constant_0.xci",
         "inst_hier_path": "gnd_constant",
         "parameters": {
           "CONST_VAL": {
@@ -990,7 +990,7 @@
         "vlnv": "xilinx.com:ip:processing_system7:5.5",
         "ip_revision": "6",
         "xci_name": "scalp_zynqps_processing_system7_0_0",
-        "xci_path": "ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xci",
+        "xci_path": "ip\\scalp_zynqps_processing_system7_0_0\\scalp_zynqps_processing_system7_0_0.xci",
         "inst_hier_path": "processing_system7_0",
         "parameters": {
           "PCW_ACT_APU_PERIPHERAL_FREQMHZ": {
@@ -2860,12 +2860,12 @@
         "vlnv": "hepia.hesge.ch:user:scalp_axi_link:1.0",
         "ip_revision": "2",
         "xci_name": "scalp_zynqps_scalp_axi_link_firmwareid_0",
-        "xci_path": "ip/scalp_zynqps_scalp_axi_link_firmwareid_0/scalp_zynqps_scalp_axi_link_firmwareid_0.xci",
+        "xci_path": "ip\\scalp_zynqps_scalp_axi_link_firmwareid_0\\scalp_zynqps_scalp_axi_link_firmwareid_0.xci",
         "inst_hier_path": "scalp_axi_link_firmwareid"
       },
       "ps7_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip/scalp_zynqps_ps7_0_axi_periph_0/scalp_zynqps_ps7_0_axi_periph_0.xci",
+        "xci_path": "ip\\scalp_zynqps_ps7_0_axi_periph_0\\scalp_zynqps_ps7_0_axi_periph_0.xci",
         "inst_hier_path": "ps7_0_axi_periph",
         "xci_name": "scalp_zynqps_ps7_0_axi_periph_0",
         "parameters": {
@@ -3061,9 +3061,9 @@
         "components": {
           "xbar": {
             "vlnv": "xilinx.com:ip:axi_crossbar:2.1",
-            "ip_revision": "30",
-            "xci_name": "scalp_zynqps_xbar_0",
-            "xci_path": "ip/scalp_zynqps_xbar_0/scalp_zynqps_xbar_0.xci",
+            "ip_revision": "34",
+            "xci_name": "scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0",
+            "xci_path": "ip\\scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0\\scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.xci",
             "inst_hier_path": "ps7_0_axi_periph/xbar",
             "parameters": {
               "NUM_MI": {
@@ -3142,9 +3142,9 @@
             "components": {
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
-                "ip_revision": "29",
-                "xci_name": "scalp_zynqps_auto_pc_0",
-                "xci_path": "ip/scalp_zynqps_auto_pc_0/scalp_zynqps_auto_pc_0.xci",
+                "ip_revision": "33",
+                "xci_name": "scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0",
+                "xci_path": "ip\\scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0\\scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0.xci",
                 "inst_hier_path": "ps7_0_axi_periph/s00_couplers/auto_pc",
                 "parameters": {
                   "MI_PROTOCOL": {
@@ -3817,9 +3817,9 @@
       },
       "axi_gpio_switches": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "ip_revision": "31",
+        "ip_revision": "35",
         "xci_name": "scalp_zynqps_axi_gpio_switches_0",
-        "xci_path": "ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0.xci",
+        "xci_path": "ip\\scalp_zynqps_axi_gpio_switches_0\\scalp_zynqps_axi_gpio_switches_0.xci",
         "inst_hier_path": "axi_gpio_switches",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -3835,9 +3835,9 @@
       },
       "axi_intc_0": {
         "vlnv": "xilinx.com:ip:axi_intc:4.1",
-        "ip_revision": "18",
+        "ip_revision": "20",
         "xci_name": "scalp_zynqps_axi_intc_0_0",
-        "xci_path": "ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0.xci",
+        "xci_path": "ip\\scalp_zynqps_axi_intc_0_0\\scalp_zynqps_axi_intc_0_0.xci",
         "inst_hier_path": "axi_intc_0",
         "parameters": {
           "C_IRQ_CONNECTION": {
@@ -3847,21 +3847,24 @@
       },
       "xlconcat_0": {
         "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "ip_revision": "5",
+        "ip_revision": "6",
         "xci_name": "scalp_zynqps_xlconcat_0_0",
-        "xci_path": "ip/scalp_zynqps_xlconcat_0_0/scalp_zynqps_xlconcat_0_0.xci",
+        "xci_path": "ip\\scalp_zynqps_xlconcat_0_0\\scalp_zynqps_xlconcat_0_0.xci",
         "inst_hier_path": "xlconcat_0",
         "parameters": {
           "NUM_PORTS": {
+            "value": "3"
+          },
+          "dout_width": {
             "value": "3"
           }
         }
       },
       "axi_gpio_reset_btn": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "ip_revision": "31",
+        "ip_revision": "35",
         "xci_name": "scalp_zynqps_axi_gpio_reset_btn_0",
-        "xci_path": "ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0.xci",
+        "xci_path": "ip\\scalp_zynqps_axi_gpio_reset_btn_0\\scalp_zynqps_axi_gpio_reset_btn_0.xci",
         "inst_hier_path": "axi_gpio_reset_btn",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -3880,9 +3883,9 @@
       },
       "system_ila_0": {
         "vlnv": "xilinx.com:ip:system_ila:1.1",
-        "ip_revision": "15",
+        "ip_revision": "19",
         "xci_name": "scalp_zynqps_system_ila_0_0",
-        "xci_path": "ip/scalp_zynqps_system_ila_0_0/scalp_zynqps_system_ila_0_0.xci",
+        "xci_path": "ip\\scalp_zynqps_system_ila_0_0\\scalp_zynqps_system_ila_0_0.xci",
         "inst_hier_path": "system_ila_0",
         "parameters": {
           "C_MON_TYPE": {
@@ -3903,7 +3906,7 @@
         "vlnv": "hepia.hesge.ch:user:scalp_axi_link:1.0",
         "ip_revision": "2",
         "xci_name": "scalp_zynqps_scalp_axi_link_cplx_num_regs_0",
-        "xci_path": "ip/scalp_zynqps_scalp_axi_link_cplx_num_regs_0/scalp_zynqps_scalp_axi_link_cplx_num_regs_0.xci",
+        "xci_path": "ip\\scalp_zynqps_scalp_axi_link_cplx_num_regs_0\\scalp_zynqps_scalp_axi_link_cplx_num_regs_0.xci",
         "inst_hier_path": "scalp_axi_link_cplx_num_regs"
       },
       "vga_hdmi_clk_rst_sys_0": {
@@ -3925,6 +3928,10 @@
           },
           "LOCK_PROPAGATE": {
             "value": "0"
+          },
+          "TRAINING_MODULE": {
+            "value": "vga_hdmi_clk_rst_system.bd",
+            "value_src": "auto"
           }
         },
         "ports": {
@@ -3941,10 +3948,6 @@
               "POLARITY": {
                 "value": "ACTIVE_LOW",
                 "value_src": "const_prop"
-              },
-              "TYPE": {
-                "value": "PERIPHERAL",
-                "value_src": "strong"
               }
             }
           },
@@ -3961,10 +3964,6 @@
               "POLARITY": {
                 "value": "ACTIVE_HIGH",
                 "value_src": "const_prop"
-              },
-              "TYPE": {
-                "value": "PERIPHERAL",
-                "value_src": "strong"
               }
             }
           },
@@ -3973,7 +3972,7 @@
             "direction": "O",
             "parameters": {
               "ASSOCIATED_RESET": {
-                "value": "ClkHdmiRstxRNAO:ClkHdmiRstxRO",
+                "value": "ClkHdmiRstxRO:ClkHdmiRstxRNAO",
                 "value_src": "strong"
               },
               "CLK_DOMAIN": {
@@ -4011,10 +4010,6 @@
               "POLARITY": {
                 "value": "ACTIVE_LOW",
                 "value_src": "const_prop"
-              },
-              "TYPE": {
-                "value": "PERIPHERAL",
-                "value_src": "strong"
               }
             }
           },
@@ -4031,10 +4026,6 @@
               "POLARITY": {
                 "value": "ACTIVE_HIGH",
                 "value_src": "const_prop"
-              },
-              "TYPE": {
-                "value": "PERIPHERAL",
-                "value_src": "strong"
               }
             }
           },
@@ -4043,7 +4034,7 @@
             "direction": "O",
             "parameters": {
               "ASSOCIATED_RESET": {
-                "value": "ClkVgaRstxRNAO:ClkVgaRstxRO",
+                "value": "ClkVgaRstxRO:ClkVgaRstxRNAO",
                 "value_src": "strong"
               },
               "CLK_DOMAIN": {
@@ -4121,7 +4112,7 @@
         "variant_info": {
           "vga_hdmi_clk_rst_system.bd": {
             "scoped_diagram": "vga_hdmi_clk_rst_system_inst_0.bd",
-            "design_checksum": "0x9B0CDA0C",
+            "design_checksum": "0xBCBD3E3389C8C51B",
             "ref_name": "vga_hdmi_clk_rst_system",
             "ref_subinst_path": "scalp_zynqps_vga_hdmi_clk_rst_system_0",
             "ref_type": "Block Design",
@@ -4132,16 +4123,16 @@
       },
       "rst_ps7_0_125M": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "ip_revision": "14",
+        "ip_revision": "16",
         "xci_name": "scalp_zynqps_rst_ps7_0_125M_0",
-        "xci_path": "ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.xci",
+        "xci_path": "ip\\scalp_zynqps_rst_ps7_0_125M_0\\scalp_zynqps_rst_ps7_0_125M_0.xci",
         "inst_hier_path": "rst_ps7_0_125M"
       },
       "sys_clock": {
         "vlnv": "xilinx.com:ip:clk_wiz:6.0",
-        "ip_revision": "13",
+        "ip_revision": "15",
         "xci_name": "scalp_zynqps_sys_clock_0",
-        "xci_path": "ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.xci",
+        "xci_path": "ip\\scalp_zynqps_sys_clock_0\\scalp_zynqps_sys_clock_0.xci",
         "inst_hier_path": "sys_clock",
         "parameters": {
           "CLKIN1_JITTER_PS": {
@@ -4247,16 +4238,16 @@
       },
       "axi_iic_ioext": {
         "vlnv": "xilinx.com:ip:axi_iic:2.1",
-        "ip_revision": "5",
+        "ip_revision": "9",
         "xci_name": "scalp_zynqps_axi_iic_ioext_0",
-        "xci_path": "ip/scalp_zynqps_axi_iic_ioext_0/scalp_zynqps_axi_iic_ioext_0.xci",
+        "xci_path": "ip\\scalp_zynqps_axi_iic_ioext_0\\scalp_zynqps_axi_iic_ioext_0.xci",
         "inst_hier_path": "axi_iic_ioext"
       },
       "axi_gpio_joystick": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "ip_revision": "31",
+        "ip_revision": "35",
         "xci_name": "scalp_zynqps_axi_gpio_joystick_0",
-        "xci_path": "ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0.xci",
+        "xci_path": "ip\\scalp_zynqps_axi_gpio_joystick_0\\scalp_zynqps_axi_gpio_joystick_0.xci",
         "inst_hier_path": "axi_gpio_joystick",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -4379,8 +4370,8 @@
       "axi_gpio_0_ip2intc_irpt": {
         "ports": [
           "axi_gpio_switches/ip2intc_irpt",
-          "xlconcat_0/In0",
-          "system_ila_0/probe0"
+          "system_ila_0/probe0",
+          "xlconcat_0/In0"
         ],
         "hdl_attributes": {
           "DEBUG": {
@@ -4471,19 +4462,19 @@
           "rst_ps7_0_125M/peripheral_aresetn",
           "Clk125RstxRNAO",
           "scalp_axi_link_firmwareid/SAxiSlvRstxRANI",
-          "axi_gpio_switches/s_axi_aresetn",
-          "axi_intc_0/s_axi_aresetn",
-          "axi_gpio_reset_btn/s_axi_aresetn",
-          "ps7_0_axi_periph/M03_ARESETN",
-          "ps7_0_axi_periph/M02_ARESETN",
-          "ps7_0_axi_periph/M01_ARESETN",
-          "ps7_0_axi_periph/M00_ARESETN",
-          "ps7_0_axi_periph/S00_ARESETN",
           "scalp_axi_link_cplx_num_regs/SAxiSlvRstxRANI",
-          "ps7_0_axi_periph/M04_ARESETN",
-          "axi_iic_ioext/s_axi_aresetn",
-          "ps7_0_axi_periph/M05_ARESETN",
           "axi_gpio_joystick/s_axi_aresetn",
+          "axi_gpio_reset_btn/s_axi_aresetn",
+          "axi_gpio_switches/s_axi_aresetn",
+          "axi_iic_ioext/s_axi_aresetn",
+          "axi_intc_0/s_axi_aresetn",
+          "ps7_0_axi_periph/S00_ARESETN",
+          "ps7_0_axi_periph/M00_ARESETN",
+          "ps7_0_axi_periph/M01_ARESETN",
+          "ps7_0_axi_periph/M02_ARESETN",
+          "ps7_0_axi_periph/M03_ARESETN",
+          "ps7_0_axi_periph/M04_ARESETN",
+          "ps7_0_axi_periph/M05_ARESETN",
           "ps7_0_axi_periph/M06_ARESETN"
         ]
       },
@@ -4520,33 +4511,33 @@
       "sys_clock_clk_126": {
         "ports": [
           "sys_clock/clk_125",
-          "rst_ps7_0_125M/slowest_sync_clk",
-          "ps7_0_axi_periph/ACLK",
           "processing_system7_0/M_AXI_GP0_ACLK",
+          "scalp_axi_link_firmwareid/SAxiSlvClkxCI",
+          "Clk125xCO",
+          "scalp_axi_link_cplx_num_regs/SAxiSlvClkxCI",
+          "axi_gpio_joystick/s_axi_aclk",
+          "axi_gpio_reset_btn/s_axi_aclk",
+          "axi_gpio_switches/s_axi_aclk",
+          "axi_iic_ioext/s_axi_aclk",
+          "axi_intc_0/s_axi_aclk",
+          "ps7_0_axi_periph/ACLK",
           "ps7_0_axi_periph/S00_ACLK",
           "ps7_0_axi_periph/M00_ACLK",
-          "scalp_axi_link_firmwareid/SAxiSlvClkxCI",
-          "axi_gpio_switches/s_axi_aclk",
-          "axi_intc_0/s_axi_aclk",
           "ps7_0_axi_periph/M01_ACLK",
           "ps7_0_axi_periph/M02_ACLK",
           "ps7_0_axi_periph/M03_ACLK",
-          "axi_gpio_reset_btn/s_axi_aclk",
-          "system_ila_0/clk",
-          "Clk125xCO",
-          "scalp_axi_link_cplx_num_regs/SAxiSlvClkxCI",
           "ps7_0_axi_periph/M04_ACLK",
-          "axi_iic_ioext/s_axi_aclk",
           "ps7_0_axi_periph/M05_ACLK",
-          "axi_gpio_joystick/s_axi_aclk",
-          "ps7_0_axi_periph/M06_ACLK"
+          "ps7_0_axi_periph/M06_ACLK",
+          "rst_ps7_0_125M/slowest_sync_clk",
+          "system_ila_0/clk"
         ]
       },
       "sys_clock_locked": {
         "ports": [
           "sys_clock/locked",
-          "rst_ps7_0_125M/dcm_locked",
-          "Clk125PllLockedxS"
+          "Clk125PllLockedxS",
+          "rst_ps7_0_125M/dcm_locked"
         ]
       },
       "vga_hdmi_clk_rst_sys_0_ClkHdmiRstxRNAO": {

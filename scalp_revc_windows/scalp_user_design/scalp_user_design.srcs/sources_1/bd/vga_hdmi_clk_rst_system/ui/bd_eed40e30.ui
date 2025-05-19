@@ -1,22 +1,33 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.75",
-   "Default View_TopLeft":"-179,-211",
+   "Default View_TopLeft":"-178,-211",
    "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
 #  -string -flagsOSRD
-preplace port port-id_ClkHdmixCO -pg 1 -lvl 2 -x 240 -y 100 -defaultsOSRD
-preplace port port-id_ClkVgaxCO -pg 1 -lvl 2 -x 240 -y 120 -defaultsOSRD
-preplace port port-id_VgaHdmiClkPllLockedxSO -pg 1 -lvl 2 -x 240 -y 140 -defaultsOSRD
+preplace port port-id_ClkHdmixCO -pg 1 -lvl 3 -x 670 -y 80 -defaultsOSRD
+preplace port port-id_ClkVgaxCO -pg 1 -lvl 3 -x 670 -y 110 -defaultsOSRD
+preplace port port-id_VgaHdmiClkPllLockedxSO -pg 1 -lvl 3 -x 670 -y 140 -defaultsOSRD
 preplace port port-id_PsResetxRN -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
-preplace port port-id_PsClockxCI -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
-preplace portBus ClkHdmiRstxRNAO -pg 1 -lvl 2 -x 240 -y 20 -defaultsOSRD
-preplace portBus ClkHdmiRstxRO -pg 1 -lvl 2 -x 240 -y 40 -defaultsOSRD
-preplace portBus ClkVgaRstxRNAO -pg 1 -lvl 2 -x 240 -y 60 -defaultsOSRD
-preplace portBus ClkVgaRstxRO -pg 1 -lvl 2 -x 240 -y 80 -defaultsOSRD
-preplace inst vga_hdmi_clock -pg 1 -lvl 1 -x 120 -y 70 -defaultsOSRD
-levelinfo -pg 1 0 120 240
-pagesize -pg 1 -db -bbox -sgen -140 0 480 160
+preplace port port-id_PsClockxCI -pg 1 -lvl 0 -x 0 -y 10 -defaultsOSRD
+preplace portBus ClkHdmiRstxRNAO -pg 1 -lvl 3 -x 670 -y -40 -defaultsOSRD
+preplace portBus ClkHdmiRstxRO -pg 1 -lvl 3 -x 670 -y -10 -defaultsOSRD
+preplace portBus ClkVgaRstxRNAO -pg 1 -lvl 3 -x 670 -y 20 -defaultsOSRD
+preplace portBus ClkVgaRstxRO -pg 1 -lvl 3 -x 670 -y 50 -defaultsOSRD
+preplace inst vga_hdmi_clock -pg 1 -lvl 1 -x 130 -y 70 -defaultsOSRD
+preplace inst rst_ps7_1_vga -pg 1 -lvl 2 -x 430 -y 260 -defaultsOSRD
+preplace inst rst_ps7_2_hdmi -pg 1 -lvl 2 -x 430 -y 40 -defaultsOSRD
+preplace netloc clk_in1_0_1 1 0 1 20 10n
+preplace netloc resetn_0_1 1 0 2 40 -10 240
+preplace netloc rst_ps7_1_vga_peripheral_aresetn 1 2 1 620 20n
+preplace netloc rst_ps7_1_vga_peripheral_reset 1 2 1 630 50n
+preplace netloc rst_ps7_2_hdmi_peripheral_aresetn 1 2 1 600 -40n
+preplace netloc rst_ps7_2_hdmi_peripheral_reset 1 2 1 610 -10n
+preplace netloc vga_hdmi_clock_clk_hdmi 1 1 2 260 140 610J
+preplace netloc vga_hdmi_clock_clk_vga 1 1 2 230 150 640J
+preplace netloc vga_hdmi_clock_locked 1 1 2 250 160 650J
+levelinfo -pg 1 0 130 430 670
+pagesize -pg 1 -db -bbox -sgen -140 -60 890 360
 "
 }
-
+0

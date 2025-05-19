@@ -1,5 +1,5 @@
 -- (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
--- (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
+-- (c) Copyright 2022-2025 Advanced Micro Devices, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of AMD and is protected under U.S. and international copyright
@@ -153,10 +153,12 @@ ARCHITECTURE scalp_zynqps_scalp_axi_link_cplx_num_regs_0_arch OF scalp_zynqps_sc
     );
   END COMPONENT scalp_axi_link;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
+  ATTRIBUTE X_INTERFACE_MODE : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
+  ATTRIBUTE X_INTERFACE_INFO OF SAxiMstARAddrxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if ARADDR";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiMstARAddrxDO: SIGNAL IS "master aximm_mst_if";
   ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiMstARAddrxDO: SIGNAL IS "XIL_INTERFACENAME aximm_mst_if, DATA_WIDTH 32, PROTOCOL AXI4LITE, ID_WIDTH 0, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN scalp_zynqps_scalp_axi_link_cplx_num_regs_0_SAxiMstClkxCO, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0" & 
 ", WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF SAxiMstARAddrxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if ARADDR";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstARReadyxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if ARREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstARValidxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if ARVALID";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstAWAddrxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if AWADDR";
@@ -165,20 +167,23 @@ ARCHITECTURE scalp_zynqps_scalp_axi_link_cplx_num_regs_0_arch OF scalp_zynqps_sc
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstBReadyxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if BREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstBRespxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if BRESP";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstBValidxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if BVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiMstClkxCO: SIGNAL IS "XIL_INTERFACENAME aximm_mst_clk, ASSOCIATED_RESET SAxiMstRstxRANO, ASSOCIATED_BUSIF aximm_mst_if, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN scalp_zynqps_scalp_axi_link_cplx_num_regs_0_SAxiMstClkxCO, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstClkxCO: SIGNAL IS "xilinx.com:signal:clock:1.0 aximm_mst_clk CLK";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiMstClkxCO: SIGNAL IS "master aximm_mst_clk";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiMstClkxCO: SIGNAL IS "XIL_INTERFACENAME aximm_mst_clk, ASSOCIATED_RESET SAxiMstRstxRANO, ASSOCIATED_BUSIF aximm_mst_if, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN scalp_zynqps_scalp_axi_link_cplx_num_regs_0_SAxiMstClkxCO, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstRDataxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if RDATA";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstRReadyxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if RREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstRRespxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if RRESP";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstRValidxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if RVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiMstRstxRANO: SIGNAL IS "XIL_INTERFACENAME aximm_master_reset, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstRstxRANO: SIGNAL IS "xilinx.com:signal:reset:1.0 aximm_master_reset RST";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiMstRstxRANO: SIGNAL IS "master aximm_master_reset";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiMstRstxRANO: SIGNAL IS "XIL_INTERFACENAME aximm_master_reset, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstWDataxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if WDATA";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstWReadyxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if WREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstWStrbxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if WSTRB";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiMstWValidxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_mst_if WVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvARAddrxDI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_if, DATA_WIDTH 32, PROTOCOL AXI4LITE, ID_WIDTH 0, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN /sys_clock_clk_out1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvARAddrxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if ARADDR";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiSlvARAddrxDI: SIGNAL IS "slave aximm_slv_if";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvARAddrxDI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_if, DATA_WIDTH 32, PROTOCOL AXI4LITE, ID_WIDTH 0, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN /sys_clock_clk_out1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvARReadyxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if ARREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvARValidxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if ARVALID";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvAWAddrxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if AWADDR";
@@ -187,14 +192,16 @@ ARCHITECTURE scalp_zynqps_scalp_axi_link_cplx_num_regs_0_arch OF scalp_zynqps_sc
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvBReadyxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if BREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvBRespxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if BRESP";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvBValidxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if BVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvClkxCI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_clk, ASSOCIATED_RESET SAxiSlvRstxRANI, ASSOCIATED_BUSIF aximm_slv_if, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /sys_clock_clk_out1, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvClkxCI: SIGNAL IS "xilinx.com:signal:clock:1.0 aximm_slv_clk CLK";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiSlvClkxCI: SIGNAL IS "slave aximm_slv_clk";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvClkxCI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_clk, ASSOCIATED_RESET SAxiSlvRstxRANI, ASSOCIATED_BUSIF aximm_slv_if, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /sys_clock_clk_out1, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvRDataxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if RDATA";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvRReadyxSI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if RREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvRRespxDO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if RRESP";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvRValidxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if RVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvRstxRANI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvRstxRANI: SIGNAL IS "xilinx.com:signal:reset:1.0 aximm_slv_rst RST";
+  ATTRIBUTE X_INTERFACE_MODE OF SAxiSlvRstxRANI: SIGNAL IS "slave aximm_slv_rst";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF SAxiSlvRstxRANI: SIGNAL IS "XIL_INTERFACENAME aximm_slv_rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvWDataxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if WDATA";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvWReadyxSO: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if WREADY";
   ATTRIBUTE X_INTERFACE_INFO OF SAxiSlvWStrbxDI: SIGNAL IS "xilinx.com:interface:aximm:1.0 aximm_slv_if WSTRB";

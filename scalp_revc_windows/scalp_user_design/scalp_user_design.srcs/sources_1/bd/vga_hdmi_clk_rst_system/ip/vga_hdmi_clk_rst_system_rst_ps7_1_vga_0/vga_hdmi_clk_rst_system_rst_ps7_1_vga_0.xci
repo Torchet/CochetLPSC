@@ -4,7 +4,7 @@
     "xci_name": "vga_hdmi_clk_rst_system_rst_ps7_1_vga_0",
     "cell_name": "rst_ps7_1_vga",
     "component_reference": "xilinx.com:ip:proc_sys_reset:5.0",
-    "ip_revision": "14",
+    "ip_revision": "16",
     "gen_directory": "../../../../../../scalp_user_design.gen/sources_1/bd/vga_hdmi_clk_rst_system/ip/vga_hdmi_clk_rst_system_rst_ps7_1_vga_0",
     "parameters": {
       "component_parameters": {
@@ -46,12 +46,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "14" } ],
+        "IPREVISION": [ { "value": "16" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../scalp_user_design.gen/sources_1/bd/vga_hdmi_clk_rst_system/ip/vga_hdmi_clk_rst_system_rst_ps7_1_vga_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },

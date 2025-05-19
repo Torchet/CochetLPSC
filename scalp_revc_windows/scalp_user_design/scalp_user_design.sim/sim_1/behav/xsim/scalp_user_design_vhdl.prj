@@ -1,0 +1,47 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ipshared/3ff2/src/scalp_axi_link.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_firmwareid_0/sim/scalp_zynqps_scalp_axi_link_firmwareid_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/sim/scalp_zynqps_axi_gpio_switches_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/sim/scalp_zynqps_axi_intc_0_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/sim/scalp_zynqps_axi_gpio_reset_btn_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/sim/bd_c0d9_ila_lib_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/sim/bd_c0d9.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/sim/scalp_zynqps_system_ila_0_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_cplx_num_regs_0/sim/scalp_zynqps_scalp_axi_link_cplx_num_regs_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/sim/scalp_zynqps_rst_ps7_0_125M_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/sim/scalp_zynqps_axi_iic_ioext_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/sim/scalp_zynqps_axi_gpio_joystick_0.vhd" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/sim/scalp_zynqps.vhd" \
+
+vhdl2008 scalp_lib  \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_cplx_num_regs.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_firmwareid.vhd" \
+
+vhdl2008 scalp_lib  \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi_pkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/vga_controler.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/vga.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/tmds_encoder.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_pwm.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd" \
+"../../../../scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd" \
+
+# Do not sort compile order
+nosort

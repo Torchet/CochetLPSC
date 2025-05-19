@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="scalp_zynqps_axi_gpio_joystick_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_joystick_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_axi_gpio_reset_btn_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_reset_btn_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_axi_gpio_switches_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_switches_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_axi_iic_ioext_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_iic_ioext_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_axi_intc_0_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_intc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_processing_system7_0_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_rst_ps7_0_125M_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_rst_ps7_0_125M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1"/>
+	</Run>
+	<Run Id="scalp_zynqps_sys_clock_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_sys_clock_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="scalp_zynqps_system_ila_0_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_system_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1" LaunchDir="C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

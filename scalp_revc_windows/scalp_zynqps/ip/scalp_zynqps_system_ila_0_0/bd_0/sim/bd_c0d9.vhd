@@ -1,5 +1,5 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
---Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Command: generate_target bd_c0d9.bd
 --Design : bd_c0d9
@@ -29,21 +29,15 @@ architecture STRUCTURE of bd_c0d9 is
     probe1 : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component bd_c0d9_ila_lib_0;
-  signal clk_1 : STD_LOGIC;
-  signal probe0_1 : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal probe1_1 : STD_LOGIC_VECTOR ( 0 to 0 );
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 CLK.CLK CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME CLK.CLK, ASSOCIATED_BUSIF SLOT_0_AXI, ASSOCIATED_RESET resetn, CLK_DOMAIN /sys_clock_clk_out1, FREQ_HZ 125000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME CLK.CLK, CLK_DOMAIN /sys_clock_clk_out1, FREQ_HZ 125000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
 begin
-  clk_1 <= clk;
-  probe0_1(0) <= probe0(0);
-  probe1_1(0) <= probe1(0);
 ila_lib: component bd_c0d9_ila_lib_0
      port map (
-      clk => clk_1,
-      probe0(0) => probe0_1(0),
-      probe1(0) => probe1_1(0)
+      clk => clk,
+      probe0(0) => probe0(0),
+      probe1(0) => probe1(0)
     );
 end STRUCTURE;

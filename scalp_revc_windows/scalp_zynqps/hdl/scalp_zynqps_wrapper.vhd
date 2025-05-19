@@ -1,9 +1,9 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
---Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
---Date        : Wed Mar 27 07:13:32 2024
---Host        : xps15-deb running 64-bit Debian GNU/Linux 12 (bookworm)
+--Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+--Date        : Mon May 19 09:18:52 2025
+--Host        : Torchet running 64-bit major release  (build 9200)
 --Command     : generate_target scalp_zynqps_wrapper.bd
 --Design      : scalp_zynqps_wrapper
 --Purpose     : IP block netlist
@@ -99,34 +99,6 @@ end scalp_zynqps_wrapper;
 architecture STRUCTURE of scalp_zynqps_wrapper is
   component scalp_zynqps is
   port (
-    Spi1MOSIxSO : out STD_LOGIC;
-    Spi1SSxSO : out STD_LOGIC;
-    Spi1SclkxCO : out STD_LOGIC;
-    Usb0VBusPwrFaultxSI : in STD_LOGIC;
-    Clk125RstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    Clk125RstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    SAxiMstFirmwareIdClkxCO : out STD_LOGIC;
-    SAxiMstFirmwareIdRstxRANO : out STD_LOGIC;
-    ClkVgaxCO : out STD_LOGIC;
-    ClkHdmixCO : out STD_LOGIC;
-    ClkVgaRstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    ClkVgaRstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    ClkHdmiRstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    ClkHdmiRstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
-    Clk125PllLockedxS : out STD_LOGIC;
-    Clk125xCO : out STD_LOGIC;
-    SAxiMstCplxNumRegsClkxCO : out STD_LOGIC;
-    SAxiMstCplxNumRegsRstxRANO : out STD_LOGIC;
-    VgaHdmiClkPllLockedxSO : out STD_LOGIC;
-    GPIOSwitchesxDI_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 );
-    GPIOJoystickxDI_tri_i : in STD_LOGIC_VECTOR ( 4 downto 0 );
-    GPIOResetBtnxDO_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
-    IoExtIICxDIO_scl_i : in STD_LOGIC;
-    IoExtIICxDIO_scl_o : out STD_LOGIC;
-    IoExtIICxDIO_scl_t : out STD_LOGIC;
-    IoExtIICxDIO_sda_i : in STD_LOGIC;
-    IoExtIICxDIO_sda_o : out STD_LOGIC;
-    IoExtIICxDIO_sda_t : out STD_LOGIC;
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -165,6 +137,8 @@ architecture STRUCTURE of scalp_zynqps_wrapper is
     aximm_mst_firmwareid_if_wstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
     aximm_mst_firmwareid_if_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     aximm_mst_firmwareid_if_rdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    GPIOSwitchesxDI_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    GPIOResetBtnxDO_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     aximm_mst_clpx_num_regs_if_rready : out STD_LOGIC;
     aximm_mst_clpx_num_regs_if_bvalid : in STD_LOGIC;
     aximm_mst_clpx_num_regs_if_bready : out STD_LOGIC;
@@ -181,7 +155,33 @@ architecture STRUCTURE of scalp_zynqps_wrapper is
     aximm_mst_clpx_num_regs_if_arvalid : out STD_LOGIC;
     aximm_mst_clpx_num_regs_if_wstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
     aximm_mst_clpx_num_regs_if_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
-    aximm_mst_clpx_num_regs_if_rdata : in STD_LOGIC_VECTOR ( 31 downto 0 )
+    aximm_mst_clpx_num_regs_if_rdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    IoExtIICxDIO_scl_i : in STD_LOGIC;
+    IoExtIICxDIO_scl_o : out STD_LOGIC;
+    IoExtIICxDIO_scl_t : out STD_LOGIC;
+    IoExtIICxDIO_sda_i : in STD_LOGIC;
+    IoExtIICxDIO_sda_o : out STD_LOGIC;
+    IoExtIICxDIO_sda_t : out STD_LOGIC;
+    GPIOJoystickxDI_tri_i : in STD_LOGIC_VECTOR ( 4 downto 0 );
+    Spi1MOSIxSO : out STD_LOGIC;
+    Spi1SSxSO : out STD_LOGIC;
+    Spi1SclkxCO : out STD_LOGIC;
+    Usb0VBusPwrFaultxSI : in STD_LOGIC;
+    Clk125RstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    Clk125RstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    SAxiMstFirmwareIdClkxCO : out STD_LOGIC;
+    SAxiMstFirmwareIdRstxRANO : out STD_LOGIC;
+    ClkVgaxCO : out STD_LOGIC;
+    ClkHdmixCO : out STD_LOGIC;
+    ClkVgaRstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    ClkVgaRstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    ClkHdmiRstxRO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    ClkHdmiRstxRNAO : out STD_LOGIC_VECTOR ( 0 to 0 );
+    Clk125PllLockedxS : out STD_LOGIC;
+    Clk125xCO : out STD_LOGIC;
+    SAxiMstCplxNumRegsClkxCO : out STD_LOGIC;
+    SAxiMstCplxNumRegsRstxRANO : out STD_LOGIC;
+    VgaHdmiClkPllLockedxSO : out STD_LOGIC
   );
   end component scalp_zynqps;
   component IOBUF is

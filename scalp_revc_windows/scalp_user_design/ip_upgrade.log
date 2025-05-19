@@ -1,0 +1,303 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:37 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vga_hdmi_clk_rst_system_vga_hdmi_clock_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of vga_hdmi_clk_rst_system_vga_hdmi_clock_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:37 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:37 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vga_hdmi_clk_rst_system_rst_ps7_1_vga_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of vga_hdmi_clk_rst_system_rst_ps7_1_vga_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_system_ila_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_system_ila_0_0 (xilinx.com:ip:system_ila:1.1) from (Rev. 15) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+scalp_zynqps_system_ila_0_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_sys_clock_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_sys_clock_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_rst_ps7_0_125M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_rst_ps7_0_125M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 30) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_gnd_constant_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_gnd_constant_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_axi_intc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_axi_intc_0_0 (xilinx.com:ip:axi_intc:4.1) from (Rev. 18) to (Rev. 20)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_IVAR_RESET_VALUE to value 0x0000000000000010 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_axi_iic_ioext_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_axi_iic_ioext_0 (xilinx.com:ip:axi_iic:2.1) from (Rev. 5) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_axi_gpio_switches_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_axi_gpio_switches_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 31) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_axi_gpio_reset_btn_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_axi_gpio_reset_btn_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 31) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 19 09:17:29 2025
+| Host         : Torchet running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z015clg485-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scalp_zynqps_axi_gpio_joystick_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of scalp_zynqps_axi_gpio_joystick_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 31) to (Rev. 35)
+

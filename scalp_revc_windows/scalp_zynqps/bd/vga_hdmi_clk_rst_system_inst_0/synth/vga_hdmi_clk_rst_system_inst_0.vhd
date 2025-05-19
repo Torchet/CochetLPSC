@@ -1,9 +1,9 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
---Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
---Date        : Wed Mar 27 07:13:45 2024
---Host        : xps15-deb running 64-bit Debian GNU/Linux 12 (bookworm)
+--Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+--Date        : Mon May 19 09:19:30 2025
+--Host        : Torchet running 64-bit major release  (build 9200)
 --Command     : generate_target vga_hdmi_clk_rst_system_inst_0.bd
 --Design      : vga_hdmi_clk_rst_system_inst_0
 --Purpose     : IP block netlist
@@ -68,15 +68,9 @@ architecture STRUCTURE of vga_hdmi_clk_rst_system_inst_0 is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0;
-  signal clk_in1_0_1 : STD_LOGIC;
-  signal resetn_0_1 : STD_LOGIC;
-  signal rst_ps7_1_vga_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal rst_ps7_1_vga_peripheral_reset : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal rst_ps7_2_hdmi_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal rst_ps7_2_hdmi_peripheral_reset : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal vga_hdmi_clock_clk_hdmi : STD_LOGIC;
-  signal vga_hdmi_clock_clk_vga : STD_LOGIC;
-  signal vga_hdmi_clock_locked : STD_LOGIC;
+  signal \^clkhdmixco\ : STD_LOGIC;
+  signal \^clkvgaxco\ : STD_LOGIC;
+  signal \^vgahdmiclkplllockedxso\ : STD_LOGIC;
   signal NLW_rst_ps7_1_vga_mb_reset_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_ps7_1_vga_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_rst_ps7_1_vga_interconnect_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -86,63 +80,57 @@ architecture STRUCTURE of vga_hdmi_clk_rst_system_inst_0 is
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of ClkHdmixCO : signal is "xilinx.com:signal:clock:1.0 CLK.CLKHDMIXCO CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of ClkHdmixCO : signal is "XIL_INTERFACENAME CLK.CLKHDMIXCO, ASSOCIATED_RESET ClkHdmiRstxRNAO:ClkHdmiRstxRO, CLK_DOMAIN /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock_clk_out1, FREQ_HZ 240000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
+  attribute X_INTERFACE_PARAMETER of ClkHdmixCO : signal is "XIL_INTERFACENAME CLK.CLKHDMIXCO, ASSOCIATED_RESET ClkHdmiRstxRO:ClkHdmiRstxRNAO, CLK_DOMAIN /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock_clk_out1, FREQ_HZ 240000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
   attribute X_INTERFACE_INFO of ClkVgaxCO : signal is "xilinx.com:signal:clock:1.0 CLK.CLKVGAXCO CLK";
-  attribute X_INTERFACE_PARAMETER of ClkVgaxCO : signal is "XIL_INTERFACENAME CLK.CLKVGAXCO, ASSOCIATED_RESET ClkVgaRstxRNAO:ClkVgaRstxRO, CLK_DOMAIN /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock_clk_out1, FREQ_HZ 48000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
+  attribute X_INTERFACE_PARAMETER of ClkVgaxCO : signal is "XIL_INTERFACENAME CLK.CLKVGAXCO, ASSOCIATED_RESET ClkVgaRstxRO:ClkVgaRstxRNAO, CLK_DOMAIN /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock_clk_out1, FREQ_HZ 48000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
   attribute X_INTERFACE_INFO of PsClockxCI : signal is "xilinx.com:signal:clock:1.0 CLK.PSCLOCKXCI CLK";
   attribute X_INTERFACE_PARAMETER of PsClockxCI : signal is "XIL_INTERFACENAME CLK.PSCLOCKXCI, ASSOCIATED_RESET PsResetxRN, CLK_DOMAIN scalp_zynqps_processing_system7_0_0_FCLK_CLK0, FREQ_HZ 125000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0";
   attribute X_INTERFACE_INFO of PsResetxRN : signal is "xilinx.com:signal:reset:1.0 RST.PSRESETXRN RST";
   attribute X_INTERFACE_PARAMETER of PsResetxRN : signal is "XIL_INTERFACENAME RST.PSRESETXRN, INSERT_VIP 0, POLARITY ACTIVE_LOW";
   attribute X_INTERFACE_INFO of ClkHdmiRstxRNAO : signal is "xilinx.com:signal:reset:1.0 RST.CLKHDMIRSTXRNAO RST";
-  attribute X_INTERFACE_PARAMETER of ClkHdmiRstxRNAO : signal is "XIL_INTERFACENAME RST.CLKHDMIRSTXRNAO, INSERT_VIP 0, POLARITY ACTIVE_LOW, TYPE PERIPHERAL";
+  attribute X_INTERFACE_PARAMETER of ClkHdmiRstxRNAO : signal is "XIL_INTERFACENAME RST.CLKHDMIRSTXRNAO, INSERT_VIP 0, POLARITY ACTIVE_LOW";
   attribute X_INTERFACE_INFO of ClkHdmiRstxRO : signal is "xilinx.com:signal:reset:1.0 RST.CLKHDMIRSTXRO RST";
-  attribute X_INTERFACE_PARAMETER of ClkHdmiRstxRO : signal is "XIL_INTERFACENAME RST.CLKHDMIRSTXRO, INSERT_VIP 0, POLARITY ACTIVE_HIGH, TYPE PERIPHERAL";
+  attribute X_INTERFACE_PARAMETER of ClkHdmiRstxRO : signal is "XIL_INTERFACENAME RST.CLKHDMIRSTXRO, INSERT_VIP 0, POLARITY ACTIVE_HIGH";
   attribute X_INTERFACE_INFO of ClkVgaRstxRNAO : signal is "xilinx.com:signal:reset:1.0 RST.CLKVGARSTXRNAO RST";
-  attribute X_INTERFACE_PARAMETER of ClkVgaRstxRNAO : signal is "XIL_INTERFACENAME RST.CLKVGARSTXRNAO, INSERT_VIP 0, POLARITY ACTIVE_LOW, TYPE PERIPHERAL";
+  attribute X_INTERFACE_PARAMETER of ClkVgaRstxRNAO : signal is "XIL_INTERFACENAME RST.CLKVGARSTXRNAO, INSERT_VIP 0, POLARITY ACTIVE_LOW";
   attribute X_INTERFACE_INFO of ClkVgaRstxRO : signal is "xilinx.com:signal:reset:1.0 RST.CLKVGARSTXRO RST";
-  attribute X_INTERFACE_PARAMETER of ClkVgaRstxRO : signal is "XIL_INTERFACENAME RST.CLKVGARSTXRO, INSERT_VIP 0, POLARITY ACTIVE_HIGH, TYPE PERIPHERAL";
+  attribute X_INTERFACE_PARAMETER of ClkVgaRstxRO : signal is "XIL_INTERFACENAME RST.CLKVGARSTXRO, INSERT_VIP 0, POLARITY ACTIVE_HIGH";
 begin
-  ClkHdmiRstxRNAO(0) <= rst_ps7_2_hdmi_peripheral_aresetn(0);
-  ClkHdmiRstxRO(0) <= rst_ps7_2_hdmi_peripheral_reset(0);
-  ClkHdmixCO <= vga_hdmi_clock_clk_hdmi;
-  ClkVgaRstxRNAO(0) <= rst_ps7_1_vga_peripheral_aresetn(0);
-  ClkVgaRstxRO(0) <= rst_ps7_1_vga_peripheral_reset(0);
-  ClkVgaxCO <= vga_hdmi_clock_clk_vga;
-  VgaHdmiClkPllLockedxSO <= vga_hdmi_clock_locked;
-  clk_in1_0_1 <= PsClockxCI;
-  resetn_0_1 <= PsResetxRN;
+  ClkHdmixCO <= \^clkhdmixco\;
+  ClkVgaxCO <= \^clkvgaxco\;
+  VgaHdmiClkPllLockedxSO <= \^vgahdmiclkplllockedxso\;
 rst_ps7_1_vga: component vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0
      port map (
       aux_reset_in => '1',
       bus_struct_reset(0) => NLW_rst_ps7_1_vga_bus_struct_reset_UNCONNECTED(0),
-      dcm_locked => vga_hdmi_clock_locked,
-      ext_reset_in => resetn_0_1,
+      dcm_locked => \^vgahdmiclkplllockedxso\,
+      ext_reset_in => PsResetxRN,
       interconnect_aresetn(0) => NLW_rst_ps7_1_vga_interconnect_aresetn_UNCONNECTED(0),
       mb_debug_sys_rst => '0',
       mb_reset => NLW_rst_ps7_1_vga_mb_reset_UNCONNECTED,
-      peripheral_aresetn(0) => rst_ps7_1_vga_peripheral_aresetn(0),
-      peripheral_reset(0) => rst_ps7_1_vga_peripheral_reset(0),
-      slowest_sync_clk => vga_hdmi_clock_clk_vga
+      peripheral_aresetn(0) => ClkVgaRstxRNAO(0),
+      peripheral_reset(0) => ClkVgaRstxRO(0),
+      slowest_sync_clk => \^clkvgaxco\
     );
 rst_ps7_2_hdmi: component vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0
      port map (
       aux_reset_in => '1',
       bus_struct_reset(0) => NLW_rst_ps7_2_hdmi_bus_struct_reset_UNCONNECTED(0),
-      dcm_locked => vga_hdmi_clock_locked,
-      ext_reset_in => resetn_0_1,
+      dcm_locked => \^vgahdmiclkplllockedxso\,
+      ext_reset_in => PsResetxRN,
       interconnect_aresetn(0) => NLW_rst_ps7_2_hdmi_interconnect_aresetn_UNCONNECTED(0),
       mb_debug_sys_rst => '0',
       mb_reset => NLW_rst_ps7_2_hdmi_mb_reset_UNCONNECTED,
-      peripheral_aresetn(0) => rst_ps7_2_hdmi_peripheral_aresetn(0),
-      peripheral_reset(0) => rst_ps7_2_hdmi_peripheral_reset(0),
-      slowest_sync_clk => vga_hdmi_clock_clk_hdmi
+      peripheral_aresetn(0) => ClkHdmiRstxRNAO(0),
+      peripheral_reset(0) => ClkHdmiRstxRO(0),
+      slowest_sync_clk => \^clkhdmixco\
     );
 vga_hdmi_clock: component vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0
      port map (
-      clk_hdmi => vga_hdmi_clock_clk_hdmi,
-      clk_in1 => clk_in1_0_1,
-      clk_vga => vga_hdmi_clock_clk_vga,
-      locked => vga_hdmi_clock_locked,
-      resetn => resetn_0_1
+      clk_hdmi => \^clkhdmixco\,
+      clk_in1 => PsClockxCI,
+      clk_vga => \^clkvgaxco\,
+      locked => \^vgahdmiclkplllockedxso\,
+      resetn => PsResetxRN
     );
 end STRUCTURE;

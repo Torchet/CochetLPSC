@@ -1,9 +1,9 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
---Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
---Date        : Wed Mar 27 07:13:45 2024
---Host        : xps15-deb running 64-bit Debian GNU/Linux 12 (bookworm)
+--Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+--Date        : Mon May 19 09:19:30 2025
+--Host        : Torchet running 64-bit major release  (build 9200)
 --Command     : generate_target vga_hdmi_clk_rst_system_inst_0_wrapper.bd
 --Design      : vga_hdmi_clk_rst_system_inst_0_wrapper
 --Purpose     : IP block netlist

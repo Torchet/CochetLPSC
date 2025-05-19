@@ -1,14 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x1A5DB4A81FD8D441",
+      "boundary_crc": "0x1A5DB4A88E872551",
       "design_src": "SBD",
       "device": "xc7z015clg485-2",
       "name": "bd_c0d9",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "scoped": "true",
       "synth_flow_mode": "None",
-      "tool_version": "2023.2",
+      "tool_version": "2024.2",
       "validated": "true"
     },
     "design_tree": {
@@ -19,14 +19,6 @@
         "type": "clk",
         "direction": "I",
         "parameters": {
-          "ASSOCIATED_BUSIF": {
-            "value": "SLOT_0_AXI",
-            "value_src": "default"
-          },
-          "ASSOCIATED_RESET": {
-            "value": "resetn",
-            "value_src": "default"
-          },
           "CLK_DOMAIN": {
             "value": "/sys_clock_clk_out1",
             "value_src": "default_prop"
@@ -63,9 +55,9 @@
     "components": {
       "ila_lib": {
         "vlnv": "xilinx.com:ip:ila:6.2",
-        "ip_revision": "14",
+        "ip_revision": "16",
         "xci_name": "bd_c0d9_ila_lib_0",
-        "xci_path": "ip/ip_0/bd_c0d9_ila_lib_0.xci",
+        "xci_path": "ip\\ip_0\\bd_c0d9_ila_lib_0.xci",
         "inst_hier_path": "ila_lib",
         "parameters": {
           "ALL_PROBE_SAME_MU": {

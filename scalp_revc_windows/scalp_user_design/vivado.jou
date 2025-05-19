@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May 19 09:13:23 2025
+# Process ID         : 24232
+# Current directory  : C:/CochetLPSC/scalp_revc_windows/scalp_user_design
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent29860 C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.xpr
+# Log file           : C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado.log
+# Journal file       : C:/CochetLPSC/scalp_revc_windows/scalp_user_design\vivado.jou
+# Running On         : Torchet
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 185H
+# CPU Frequency      : 3072 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33687 MB
+# Swap memory        : 2166 MB
+# Total Virtual      : 35854 MB
+# Available Virtual  : 10648 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -no_script -sync -force -quiet
+open_bd_design C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd
+upgrade_bd_cells [get_bd_cells vga_hdmi_clk_rst_sys_0]
+save_bd_design 
+generate_target all [get_files C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd]
+launch_runs scalp_zynqps_axi_gpio_joystick_0_synth_1 scalp_zynqps_axi_gpio_reset_btn_0_synth_1 scalp_zynqps_axi_gpio_switches_0_synth_1 scalp_zynqps_axi_iic_ioext_0_synth_1 scalp_zynqps_axi_intc_0_0_synth_1 scalp_zynqps_processing_system7_0_0_synth_1 scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1 scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 scalp_zynqps_rst_ps7_0_125M_0_synth_1 scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1 scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1 scalp_zynqps_sys_clock_0_synth_1 scalp_zynqps_system_ila_0_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1 vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1 -jobs 22
+wait_on_run scalp_zynqps_axi_gpio_joystick_0_synth_1
+wait_on_run scalp_zynqps_axi_gpio_reset_btn_0_synth_1
+wait_on_run scalp_zynqps_axi_gpio_switches_0_synth_1
+wait_on_run scalp_zynqps_axi_iic_ioext_0_synth_1
+wait_on_run scalp_zynqps_axi_intc_0_0_synth_1
+wait_on_run scalp_zynqps_processing_system7_0_0_synth_1
+wait_on_run scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1
+wait_on_run scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1
+wait_on_run scalp_zynqps_rst_ps7_0_125M_0_synth_1
+wait_on_run scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1
+wait_on_run scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1
+wait_on_run scalp_zynqps_sys_clock_0_synth_1
+wait_on_run scalp_zynqps_system_ila_0_0_synth_1
+wait_on_run vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1
+wait_on_run vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1
+wait_on_run vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1
+wait_on_run scalp_zynqps_axi_gpio_joystick_0_synth_1 scalp_zynqps_axi_gpio_reset_btn_0_synth_1 scalp_zynqps_axi_gpio_switches_0_synth_1 scalp_zynqps_axi_iic_ioext_0_synth_1 scalp_zynqps_axi_intc_0_0_synth_1 scalp_zynqps_processing_system7_0_0_synth_1 scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1 scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 scalp_zynqps_rst_ps7_0_125M_0_synth_1 scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1 scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1 scalp_zynqps_sys_clock_0_synth_1 scalp_zynqps_system_ila_0_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1 vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_bd_design {C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd}
+launch_simulation
+launch_runs synth_1 -jobs 22
+wait_on_run synth_1

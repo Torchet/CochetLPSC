@@ -885,7 +885,19 @@ begin
                     WRADDR => BramAddrxD,
                     WRCLK  => ClpxNumRegsAxixD.ClockxC.ClkxC,
                     WREN   => '1');
-
+                    
+            MandelCalcxI : entity work.mandelbrot_calc
+                generic map ( 
+                    comma => 12, -- nombre de bits après la virgule
+                    max_iter => 100,
+                    SIZE => 16)
+                port map (
+                    clk => ClpxNumRegsAxixD.ClockxC.ClkxC,
+                    rst => '0',
+                    start => '0',
+                    c_real => (others => '0'),
+                    c_imaginary => (others => '0')
+                );
             SwissFlagxP : process (HdmiVgaClocksxC.PllLockedxS,
                                    HdmiVgaClocksxC.VgaResetxRNA,
                                    HdmiVgaClocksxC.VgaxC) is

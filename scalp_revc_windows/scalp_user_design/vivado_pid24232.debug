@@ -1,0 +1,39 @@
+#--------------------------------------------------------------------------
+# AMD Vivado v2024.2 (64-bit)
+# SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build: 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Current time: Mon May 19 09:32:30 CEST 2025
+# Process ID (PID): 24232
+# User: Victor
+# OS: Windows 11
+# Project: scalp_user_design
+# Part: SCALP node (xc7z015clg485-2)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with AMD.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Mon May 19 09:32:30 CEST 2025
+java.lang.NullPointerException: Cannot invoke "java.awt.event.MouseEvent.getX()" because "<parameter2>" is null
+	at ui.frmwork.str.robot.m.a(SourceFile:1432)
+	at ui.utils.swing.u.g.getRobotCommand(SourceFile:639)
+	at ui.frmwork.str.robot.m.a(SourceFile:282)
+	at ui.frmwork.str.a.b(SourceFile:564)
+	at ui.frmwork.str.c.run(SourceFile:471)
+	at ui.frmwork.str.a.C(SourceFile:460)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at ui.frmwork.a.d.dispatchEvent(SourceFile:38)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+

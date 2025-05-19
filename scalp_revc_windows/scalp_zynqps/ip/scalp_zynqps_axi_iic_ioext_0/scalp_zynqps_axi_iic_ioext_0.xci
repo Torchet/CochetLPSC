@@ -4,7 +4,7 @@
     "xci_name": "scalp_zynqps_axi_iic_ioext_0",
     "cell_name": "axi_iic_ioext",
     "component_reference": "xilinx.com:ip:axi_iic:2.1",
-    "ip_revision": "5",
+    "ip_revision": "9",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -55,12 +55,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "5" } ],
+        "IPREVISION": [ { "value": "9" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },
@@ -507,7 +507,7 @@
                       "is_volatile": true,
                       "access": "read-only"
                     },
-                    "ARW": {
+                    "SRW": {
                       "bit_offset": 3,
                       "bit_width": 1,
                       "display_name": "Slave Read/Write",

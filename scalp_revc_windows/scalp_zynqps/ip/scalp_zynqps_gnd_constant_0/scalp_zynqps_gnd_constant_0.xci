@@ -4,7 +4,7 @@
     "xci_name": "scalp_zynqps_gnd_constant_0",
     "cell_name": "gnd_constant",
     "component_reference": "xilinx.com:ip:xlconstant:1.1",
-    "ip_revision": "8",
+    "ip_revision": "9",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -31,12 +31,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "8" } ],
+        "IPREVISION": [ { "value": "9" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

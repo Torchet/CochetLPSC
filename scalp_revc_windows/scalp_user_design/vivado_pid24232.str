@@ -1,0 +1,1712 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 24232
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon May 19 09:14:07 CEST 2025
+Time zone: 	Central European Standard Time (Europe/Zurich)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 22
+
+Screen size: 2880x1800
+Local screen bounds: x = 0, y = 0, width = 2880, height = 1704
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+OS font scaling: 200%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+Java executable: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	Victor
+User home directory: C:/Users/Victor
+User working directory: C:/CochetLPSC/scalp_revc_windows/scalp_user_design
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: C:/Users/Victor/AppData/Roaming/Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: C:/Users/Victor/AppData/Roaming/Xilinx/Vivado/2024.2/
+Vivado layouts directory: C:/Users/Victor/AppData/Roaming/Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado.log
+Vivado journal file: 	C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado.jou
+Engine tmp dir: 	C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent29860 "C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_INSTALLVERSION: 2024.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2024.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2024.2/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/Xilinx/Vivado/2024.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vitis/2024.2/bin;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\CochetLPSC\scalp_revc_windows\scalp_user_design:TORCHET-19-05-2025_9-13-19.31
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.2/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2024.2
+XILINX_SDK: C:/Xilinx/Vitis/2024.2
+XILINX_VITIS: C:/Xilinx/Vitis/2024.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2024.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2024.2\bin
+_RDI_CWD: C:\CochetLPSC\scalp_revc_windows\scalp_user_design
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 812 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 813 MB. GUI used memory: 89 MB. Current time: 5/19/25, 9:14:08 AM CEST
+selectButton(RDIResource.BaseDialog_OK, "OK", "Older Project Version"); // a (RDIResource.BaseDialog_OK)
+// Opening Vivado Project: C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.xpr. Version: Vivado v2023.2 
+dismissDialog("Older Project Version"); // az (dialog0)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 142 MB (+146081kb) [00:00:39]
+// [Engine Memory]: 954 MB (+848734kb) [00:00:39]
+// [GUI Memory]: 165 MB (+16657kb) [00:00:43]
+// [Engine Memory]: 1,002 MB (+143kb) [00:00:45]
+// WARNING: HEventQueue.dispatchEvent() is taking  7943 ms.
+// Tcl Message: open_project C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/jo/projects/scalp_revc_windows/scalp_user_design' since last save. 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/CochetLPSC/scalp_revc_windows'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
+// Tcl Message: INFO: [Project 1-230] Project 'scalp_user_design.xpr' upgraded for this version of Vivado. INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,006 MB. GUI used memory: 106 MB. Current time: 5/19/25, 9:14:31 AM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1286.023 ; gain = 177.211 
+// Project name: scalp_user_design; location: C:/CochetLPSC/scalp_revc_windows/scalp_user_design; part: xc7z015clg485-2
+// Elapsed time: 24 seconds
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [Engine Memory]: 1,057 MB (+5556kb) [00:00:50]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 33 seconds
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, "Report IP Status", "Project Upgraded"); // a (PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+dismissDialog("Project Upgraded"); // U (dialog1)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bh (Report IP Status Progress)
+// Elapsed time: 99 seconds
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton(RDIResource.BaseDialog_OK, "OK", "Upgrade IP"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Upgrade IP"); // K.b (dialog2)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: LOAD_FEATURE
+// Tcl Message: upgrade_ip [get_ips  {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -log ip_upgrade.log 
+// Tcl Message: Reading block design file <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,111 MB. GUI used memory: 105 MB. Current time: 5/19/25, 9:16:53 AM CEST
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,111 MB (+1389kb) [00:03:09]
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,172 MB (+5645kb) [00:03:16]
+// [GUI Memory]: 174 MB (+699kb) [00:03:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  1408 ms.
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_125M Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - sys_clock Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_ioext Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_joystick Successfully read diagram <scalp_zynqps> from block design file <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd> 
+// Elapsed time: 12 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Upgrading 'C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd' 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_joystick_0 (AXI GPIO 2.0) from revision 31 to revision 35 INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_reset_btn_0 (AXI GPIO 2.0) from revision 31 to revision 35 INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_switches_0 (AXI GPIO 2.0) from revision 31 to revision 35 INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_iic_ioext_0 (AXI IIC 2.1) from revision 5 to revision 9 INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_intc_0_0 (AXI Interrupt Controller 4.1) from revision 18 to revision 20 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_gnd_constant_0 (Constant 1.1) from revision 8 to revision 9 INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_ps7_0_axi_periph_0 (AXI Interconnect 2.1) from revision 30 to revision 34 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_rst_ps7_0_125M_0 (Processor System Reset 5.0) from revision 14 to revision 16 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [Device 21-403] Loading part xc7z015clg485-2 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,326 MB. GUI used memory: 108 MB. Current time: 5/19/25, 9:17:08 AM CEST
+// [Engine Memory]: 1,389 MB (+165686kb) [00:03:25]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,463 MB. GUI used memory: 108 MB. Current time: 5/19/25, 9:17:19 AM CEST
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CLOSE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_sys_clock_0 (Clocking Wizard 6.0) from revision 13 to revision 15 
+// Tcl Message: ipx::get_ipfiles: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1735.305 ; gain = 3.211 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_system_ila_0_0 (System ILA 1.1) from revision 15 to revision 19 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,510 MB (+53611kb) [00:03:44]
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_xlconcat_0_0 (Concat 2.1) from revision 5 to revision 6 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Elapsed time: 32 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: Upgrading 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/vga_hdmi_clk_rst_system.bd' 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_rst_ps7_1_vga_0 (Processor System Reset 5.0) from revision 14 to revision 16 
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 (Processor System Reset 5.0) from revision 14 to revision 16 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_vga_hdmi_clock_0 (Clocking Wizard 6.0) from revision 13 to revision 15 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:36 ; elapsed = 00:00:49 . Memory (MB): peak = 1800.859 ; gain = 116.207 
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.srcs\sources_1\bd\vga_hdmi_clk_rst_system\vga_hdmi_clk_rst_system.bd>  Wrote  : <C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/ui/bd_eed40e30.ui>  
+// Tcl Message: export_ip_user_files -of_objects [get_ips {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -no_script -sync -force -quiet 
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: upgrade_bd_cells [get_bd_cells vga_hdmi_clk_rst_sys_0] 
+// Tcl Message: INFO: [BD 41-1794] Referenced block design(vga_hdmi_clk_rst_system.bd) is not validated, the design will be opening in background if not open and then validating... INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clock clk_wiz propagate 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.srcs\sources_1\bd\vga_hdmi_clk_rst_system\vga_hdmi_clk_rst_system.bd>  
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,575 MB. GUI used memory: 112 MB. Current time: 5/19/25, 9:17:43 AM CEST
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRASSIGN
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  Wrote  : <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ui/bd_f5624d46.ui>  Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  
+// Tcl Message: upgrade_bd_cells: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1846.422 ; gain = 45.562 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design  
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\scalp_zynqps.bd>  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/K.d': 56s
+// WARNING: HTimer (Open addressing views timer) is taking 1263ms to process. Increasing delay to 1300 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1264 ms.
+// Elapsed time: 47 seconds
+selectButton("OptionPane.button", "OK", "Upgrade IP"); // JButton (OptionPane.button)
+// [Engine Memory]: 1,592 MB (+6959kb) [00:04:37]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:54s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:56s
+// [GUI Memory]: 184 MB (+2180kb) [00:04:40]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // u (dialog3)
+selectRadioButton(PAResourceOtoP.OpenOutputProductDialog_LAUNCH_RUNS_ON_LOCAL_HOST, "Launch runs on local host:"); // a (PAResourceOtoP.OpenOutputProductDialog_LAUNCH_RUNS_ON_LOCAL_HOST)
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "20", 19); // d (PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS)
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "22", 21); // d (PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS)
+selectButton(PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Ok", "Open Elaborated Design"); // a (PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd] 
+// Tcl Message: INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s). 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CLOSE_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,639 MB. GUI used memory: 114 MB. Current time: 5/19/25, 9:18:48 AM CEST
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s). INFO: [xilinx.com:ip:clk_wiz:6.0-1] /sys_clock clk_wiz propagate INFO: [xilinx.com:ip:clk_wiz:6.0-1] /sys_clock clk_wiz propagate INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock clk_wiz propagate INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock clk_wiz propagate 
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\scalp_zynqps.bd>  
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd 
+// Tcl Message: VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/sim/scalp_zynqps.vhd VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/hdl/scalp_zynqps_wrapper.vhd Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd>  
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,682 MB (+11119kb) [00:05:07]
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block gnd_constant . 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 115 MB. Current time: 5/19/25, 9:19:03 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,752 MB. GUI used memory: 114 MB. Current time: 5/19/25, 9:19:14 AM CEST
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created. 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block scalp_axi_link_firmwareid . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_switches . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_reset_btn . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Exporting to file c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/hw_handoff/scalp_zynqps_system_ila_0_0.hwh Generated Hardware Definition File c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/synth/scalp_zynqps_system_ila_0_0.hwdef 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block scalp_axi_link_cplx_num_regs . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_125M . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_clock . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_ioext . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_joystick . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1662] The design 'vga_hdmi_clk_rst_system_inst_0.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/hdl/vga_hdmi_clk_rst_system_inst_0_wrapper.vhd 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block vga_hdmi_clock . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_1_vga . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_2_hdmi . 
+// Tcl Message: Exporting to file C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/hw_handoff/vga_hdmi_clk_rst_system_inst_0.hwh Generated Hardware Definition File C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.hwdef 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Exporting to file C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/hw_handoff/scalp_zynqps.hwh Generated Hardware Definition File C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2004.281 ; gain = 157.859 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd] 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,768 MB. GUI used memory: 121 MB. Current time: 5/19/25, 9:19:44 AM CEST
+// TclEventType: RUN_STATUS_CHANGE
+// [Engine Memory]: 1,768 MB (+2440kb) [00:05:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 120 MB. Current time: 5/19/25, 9:20:14 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 121 MB. Current time: 5/19/25, 9:20:44 AM CEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1065 ms. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 195 MB (+1912kb) [00:07:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 125 MB. Current time: 5/19/25, 9:21:14 AM CEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Mon May 19 09:21:17 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish... 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Mon May 19 09:21:38 2025] Waiting for {scalp_zynqps_system_ila_0_0_synth_1} to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 126 MB. Current time: 5/19/25, 9:21:44 AM CEST
+// Tcl Message: [Mon May 19 09:21:58 2025] Waiting for {scalp_zynqps_system_ila_0_0_synth_1} to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 127 MB. Current time: 5/19/25, 9:22:14 AM CEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: wait_on_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:02:39 . Memory (MB): peak = 2022.512 ; gain = 18.230 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z015clg485-2 Top: scalp_user_design 
+// TclEventType: MSGMGR_REFRESH_MSG
+// [Engine Memory]: 1,867 MB (+10216kb) [00:08:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  2097 ms.
+// [Engine Memory]: 2,031 MB (+74876kb) [00:08:39]
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,247 MB. GUI used memory: 130 MB. Current time: 5/19/25, 9:22:33 AM CEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 2,262 MB (+134842kb) [00:08:52]
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,266 MB. GUI used memory: 129 MB. Current time: 5/19/25, 9:22:39 AM CEST
+// Xgd.load filename: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/xc7z015_detail.xgd_3EE3 elapsed time: 2.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,506 MB (+137699kb) [00:09:00]
+// [GUI Memory]: 230 MB (+26037kb) [00:09:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  5386 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 28956 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2497.785 ; gain = 469.281 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'scalp_user_design' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:309] INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_wrapper' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:101] 
+// Tcl Message: 	Parameter C_AXI4_ARADDR_SIZE bound to: 32 - type: integer  	Parameter C_AXI4_RDATA_SIZE bound to: 32 - type: integer  	Parameter C_AXI4_RRESP_SIZE bound to: 2 - type: integer  	Parameter C_AXI4_AWADDR_SIZE bound to: 32 - type: integer  	Parameter C_AXI4_WDATA_SIZE bound to: 32 - type: integer  	Parameter C_AXI4_WSTRB_SIZE bound to: 4 - type: integer  	Parameter C_AXI4_BRESP_SIZE bound to: 2 - type: integer  	Parameter C_GPIO_SWITCHES_SIZE bound to: 2 - type: integer  	Parameter C_GPIO_JOYSTICK_SIZE bound to: 5 - type: integer  	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: LVCMOS25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'IoExtIICSclxI' to cell 'IOBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:120] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: LVCMOS25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: 	Parameter C_REGS_ADDR_SIZE bound to: 4096 - type: integer  	Parameter C_NB_REGS_IN bound to: 0 - type: integer  	Parameter C_NB_REGS_OUT bound to: 2 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'scalp_firmwareid' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_firmwareid.vhd:61] INFO: [Synth 8-638] synthesizing module 'scalp_pwm' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_pwm.vhd:47] 
+// Tcl Message: 	Parameter C_PWM_SIZE bound to: 8 - type: integer  	Parameter C_CLK_CNT_LEN bound to: 256 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'scalp_pwm' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_pwm.vhd:47] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed1RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:623] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed2RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:632] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed1GxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:666] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed2RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:675] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed1BxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:709] 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OutBufLed2BxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:718] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufSwitch0xI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:735] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufSwitch0xI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:735] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750] 
+// Tcl Message: 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750] INFO: [Synth 8-638] synthesizing module 'scalp_cplx_num_regs' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_cplx_num_regs.vhd:61] 
+// Tcl Message: 	Parameter C_REGS_ADDR_SIZE bound to: 4096 - type: integer  	Parameter C_NB_REGS_IN bound to: 0 - type: integer  	Parameter C_NB_REGS_OUT bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'scalp_cplx_num_regs' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_cplx_num_regs.vhd:61] INFO: [Synth 8-638] synthesizing module 'scalp_hdmi' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi.vhd:52] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'vga' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga.vhd:48] 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'vga_stripes' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd:45] INFO: [Synth 8-256] done synthesizing module 'vga_stripes' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd:45] INFO: [Synth 8-638] synthesizing module 'vga_controler' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_controler.vhd:47] 
+// Tcl Message: 	Parameter DATA_RATE_OQ bound to: DDR - type: string  	Parameter DATA_RATE_TQ bound to: DDR - type: string  	Parameter DATA_WIDTH bound to: 10 - type: integer  	Parameter INIT_OQ bound to: 1'b1  	Parameter INIT_TQ bound to: 1'b1  	Parameter SERDES_MODE bound to: MASTER - type: string  	Parameter SRVAL_OQ bound to: 1'b0  	Parameter SRVAL_TQ bound to: 1'b0  	Parameter TBYTE_CTL bound to: FALSE - type: string  	Parameter TBYTE_SRC bound to: FALSE - type: string  	Parameter TRISTATE_WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'MasterOSERDESE2xI' to cell 'OSERDESE2' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:60] 
+// Tcl Message: 	Parameter DATA_RATE_OQ bound to: DDR - type: string  	Parameter DATA_RATE_TQ bound to: DDR - type: string  	Parameter DATA_WIDTH bound to: 10 - type: integer  	Parameter INIT_OQ bound to: 1'b1  	Parameter INIT_TQ bound to: 1'b1  	Parameter SERDES_MODE bound to: SLAVE - type: string  	Parameter SRVAL_OQ bound to: 1'b0  	Parameter SRVAL_TQ bound to: 1'b0  	Parameter TBYTE_CTL bound to: FALSE - type: string  	Parameter TBYTE_SRC bound to: FALSE - type: string  	Parameter TRISTATE_WIDTH bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'SlaveOSERDESE2xI' to cell 'OSERDESE2' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:106] INFO: [Synth 8-256] done synthesizing module 'serializer_10_to_1' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:44] 
+// Tcl Message: 	Parameter IOSTANDARD bound to: LVDS_25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160] 
+// Tcl Message: 	Parameter IOSTANDARD bound to: LVDS_25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160] 
+// Tcl Message: 	Parameter IOSTANDARD bound to: LVDS_25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160] 
+// Tcl Message: 	Parameter IOSTANDARD bound to: LVDS_25 - type: string  	Parameter SLEW bound to: FAST - type: string  
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxC3xI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:172] INFO: [Synth 8-256] done synthesizing module 'vga_to_hdmi' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:45] INFO: [Synth 8-256] done synthesizing module 'scalp_hdmi' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi.vhd:52] 
+// Tcl Message: 	Parameter BRAM_SIZE bound to: 18Kb - type: string  	Parameter DEVICE bound to: 7SERIES - type: string  	Parameter DO_REG bound to: 0 - type: integer  	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000  	Parameter INIT_FILE bound to: NONE - type: string  	Parameter READ_WIDTH bound to: 32 - type: integer  	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string  	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000  	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string  	Parameter WRITE_WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'BRAM_SDP_MACRO' declared at 'C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:38' bound to instance 'BramSDPMacro1xI' of component 'BRAM_SDP_MACRO' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:839] INFO: [Synth 8-638] synthesizing module 'unimacro_BRAM_SDP_MACRO' [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:217] 
+// Tcl Message: INFO: [Synth 8-113] binding component instance 'ram18sd_bl3' to cell 'RAMB18E1' [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:2730] INFO: [Synth 8-256] done synthesizing module 'unimacro_BRAM_SDP_MACRO' (0#1) [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:217] 
+// Tcl Message: 	Parameter BRAM_SIZE bound to: 18Kb - type: string  	Parameter DEVICE bound to: 7SERIES - type: string  	Parameter DO_REG bound to: 0 - type: integer  	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000  	Parameter INIT_FILE bound to: NONE - type: string  	Parameter READ_WIDTH bound to: 32 - type: integer  	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string  	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000  	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string  	Parameter WRITE_WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'BRAM_SDP_MACRO' declared at 'C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:38' bound to instance 'BramSDPMacro2xI' of component 'BRAM_SDP_MACRO' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:864] INFO: [Synth 8-256] done synthesizing module 'scalp_user_design' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:309] INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlconcat_0'. This will prevent further optimization [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3042] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2635.305 ; gain = 606.801 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2653.141 ; gain = 624.637 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2653.141 ; gain = 624.637 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.177 . Memory (MB): peak = 2679.637 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 101 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2024.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/processing_system7_0/inst' Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/processing_system7_0/inst' 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/debug.xdc] Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/debug.xdc] Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc] Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc] 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/timing_constraints.xdc] Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/timing_constraints.xdc] Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0_clocks.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0' Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0_clocks.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0' Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2775.629 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 38 instances were transformed.   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 36 instances   IOBUF => IOBUF (IBUF, OBUFT): 2 instances  
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 3141.922 ; gain = 1113.418 
+// Tcl Message: 150 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:33 . Memory (MB): peak = 3141.922 ; gain = 1119.410 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.a': 04m:08s
+// TclEventType: FILE_SET_CHANGE
+// 'dV' command handler elapsed time: 272 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  3071 ms.
+// Elapsed time: 256 seconds
+selectButton("OptionPane.button", "OK", "Generate Output Products"); // JButton (OptionPane.button)
+// [GUI Memory]: 248 MB (+6664kb) [00:09:14]
+// [Engine Memory]: 2,844 MB (+223246kb) [00:09:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,844 MB. GUI used memory: 184 MB. Current time: 5/19/25, 9:23:00 AM CEST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:32s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 08m:37s
+// [GUI Memory]: 262 MB (+2030kb) [00:10:26]
+// Elapsed time: 78 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 23 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[scalp_user_design, PLxB.ScalpFirmwareIDxI (scalp_firmwareid)]", 13); // aG (PAResourceItoN.NetlistTreeView_NETLIST_TREE)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[scalp_user_design, PLxB.ScalpFirmwareIDxI (scalp_firmwareid), Leaf Cells (552)]", 15); // aG (PAResourceItoN.NetlistTreeView_NETLIST_TREE)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[scalp_user_design, PLxB.ScalpFirmwareIDxI (scalp_firmwareid), Leaf Cells (552)]", 15); // aG (PAResourceItoN.NetlistTreeView_NETLIST_TREE)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// PAPropertyPanels.initPanels (scalp_user_design.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aa
+// Elapsed time: 154 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // an (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // an (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scalp_user_design.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("scalp_user_design.vhd", 388, 264); // ae (scalp_user_design.vhd)
+selectCodeEditor("scalp_user_design.vhd", 160, 251); // ae (scalp_user_design.vhd)
+selectCodeEditor("scalp_user_design.vhd", 171, 278); // ae (scalp_user_design.vhd)
+selectCodeEditor("scalp_user_design.vhd", 204, 281); // ae (scalp_user_design.vhd)
+selectCodeEditor("scalp_user_design.vhd", 204, 281, false, false, false, true, false); // ae (scalp_user_design.vhd) - Popup Trigger
+selectCodeEditor("scalp_user_design.vhd", 161, 282); // ae (scalp_user_design.vhd)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem((HResource) null, "scalp_zynqps.bd"); // aq (scalp_zynqps.bd)
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1049 ms.
+// Tcl Message: open_bd_design {C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd} 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+dismissDialog("Open Block Design"); // bh (Open Block Design Progress)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // an (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // an (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // an (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // an (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_SIMULATION_SETS, "Edit Simulation Sets..."); // aq (PAResourceCommand.PACommandNames_EDIT_SIMULATION_SETS, edit_simulation_sets_menu)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_SIMULATION_SETS
+// 'aw' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Add Sources"); // ax (dialog5)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // aq (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'scalp_user_design' 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -L uvm -L axi_vip_v1_1_19 -L processing_system7_vip_v1_0_21 -L xilinx_vip -prj scalp_user_design_vlog.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0' INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.vhd" into library xil_defaultlib 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 3427.770 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '11' seconds INFO: [USF-XSim-99] Step results log file:'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/xvhdl.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/xvhdl.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 3427.770 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 19 seconds
+// Elapsed time: 19 seconds
+selectButton("OptionPane.button", "OK", "Run Simulation"); // JButton (OptionPane.button)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/xvhdl.log' file for more information.", 0); // b (PAResourceAtoD.CmdMsgDialog_MESSAGES)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (PAResourceAtoD.CmdMsgDialog_MESSAGES)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog6)
+// Elapsed time: 26 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 409, 77); // cD (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 409, 77, false, false, false, false, true); // cD (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 409, 77); // cD (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // cD (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR)
+// Elapsed time: 59 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ai (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ai (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ai (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ai (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // an (PAResourceItoN.MainMenuMgr_SETTINGS, Settings)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, "Simulation Settings..."); // aq (PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, simulation_settings_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ai (PAResourceItoN.MainMenuMgr_FLOW, Flow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2568 ms.
+selectTab(PAResourceOtoP.PlanAheadTab_TABBED_PANE, PAResourceOtoP.PlanAheadTab_DUMMY_PANEL, "scalp_zynqps", 0); // C (PAResourceOtoP.PlanAheadTab_TABBED_PANE)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2024.2 (64-bit)
+# SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build: 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Current time: Mon May 19 09:32:30 CEST 2025
+# Process ID (PID): 24232
+# OS: Windows 11
+# User: Victor
+# Project: scalp_user_design
+# Part: SCALP node (xc7z015clg485-2)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.NullPointerException: Cannot invoke "java.awt.event.MouseEvent.getX()" because "<parameter2>" is null (See C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado_pid24232.debug)
+*/
+// WARNING: HEventQueue.dispatchEvent() is taking  5193 ms.
+// [GUI Memory]: 316 MB (+42692kb) [00:19:02]
+// Elapsed time: 23 seconds
+selectCheckBox(PAResourceOtoP.ProjectSettingsSimulationPanel_GENERATE_SIMULATION_SCRIPTS_ONLY, "Generate simulation scripts only", true); // f (PAResourceOtoP.ProjectSettingsSimulationPanel_GENERATE_SIMULATION_SCRIPTS_ONLY): TRUE
+selectCheckBox(PAResourceOtoP.ProjectSettingsSimulationPanel_GENERATE_SIMULATION_SCRIPTS_ONLY, "Generate simulation scripts only", false); // f (PAResourceOtoP.ProjectSettingsSimulationPanel_GENERATE_SIMULATION_SCRIPTS_ONLY): FALSE
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g (PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g (PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g (PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g (PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_COMPILATION, "Compilation", 0); // g (PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE)
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Vivado Store]", 2); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+collapseTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Vivado Store]", 2); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Source File]", 3, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+// Elapsed time: 18 seconds
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, 3rd Party Simulators]", 7, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+// Elapsed time: 15 seconds
+selectMoreButton(PAResourceQtoS.SettingsThirdPartyToolsPage_SPECIFY_MODELSIM_GCC_INSTALL_PATH, (String) null, "Settings"); // s (PAResourceQtoS.SettingsThirdPartyToolsPage_SPECIFY_MODELSIM_GCC_INSTALL_PATH)
+dismissFolderChooser();
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Window Behavior]", 12); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+collapseTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Window Behavior]", 12); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+// Elapsed time: 68 seconds
+dismissDialog("Settings"); // e (dialog7)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 723, 204, 1543, 759, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // an (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // aq (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+selectComboBox(PAResourceQtoS.RSBAddModuleDialog_MODULE_TYPE, "Block Design", 1); // d (PAResourceQtoS.RSBAddModuleDialog_MODULE_TYPE)
+selectComboBox(PAResourceQtoS.RSBAddModuleDialog_MODULE_TYPE, "RTL", 0); // d (PAResourceQtoS.RSBAddModuleDialog_MODULE_TYPE)
+dismissDialog("Add Module"); // cm (dialog10)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // g (RDIResource.PropertiesView_TABBED_PANE)
+// [GUI Memory]: 338 MB (+6341kb) [00:21:55]
+// WARNING: HEventQueue.dispatchEvent() is taking  1111 ms.
+// Elapsed time: 11 seconds
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // R (RDIResource.RDIViews_PROPERTIES, Properties)
+// WARNING: HEventQueue.dispatchEvent() is taking  1326 ms.
+selectTreeTable(PAResourceTtoZ.TclObjectTreeTable_TREETABLE, "NEEDS_REFRESH ; true", 11, "NEEDS_REFRESH", 0, false); // m (PAResourceTtoZ.TclObjectTreeTable_TREETABLE)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,950 MB. GUI used memory: 209 MB. Current time: 5/19/25, 9:35:49 AM CEST
+selectTreeTable(PAResourceTtoZ.TclObjectTreeTable_TREETABLE, "PATH_MODE ; RelativeFirst", 12, "RelativeFirst", 1, false); // m (PAResourceTtoZ.TclObjectTreeTable_TREETABLE)
+selectTreeTable(PAResourceTtoZ.TclObjectTreeTable_TREETABLE, "PATH_MODE ; RelativeFirst", 12, "RelativeFirst", 1, false); // m (PAResourceTtoZ.TclObjectTreeTable_TREETABLE)
+// [Engine Memory]: 2,999 MB (+13075kb) [00:22:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,031 MB. GUI used memory: 210 MB. Current time: 5/19/25, 9:36:04 AM CEST
+// Elapsed time: 14 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // g (RDIResource.PropertiesView_TABBED_PANE)
+// WARNING: HEventQueue.dispatchEvent() is taking  2070 ms.
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // R (RDIResource.RDIViews_PROPERTIES, Properties)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (RDIResource.HPopupTitle_CLOSE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, scalp_user_design(arch) (scalp_user_design.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectRadioButton(PAResourceItoN.LaunchPanel_GENERATE_SCRIPTS_ONLY, "Generate scripts only"); // a (PAResourceItoN.LaunchPanel_GENERATE_SCRIPTS_ONLY)
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_LOCAL_HOST, "Launch runs on local host:"); // a (PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_LOCAL_HOST)
+selectButton(RDIResource.QuickHelp_HELP, (String) null, "Launch Runs"); // v (RDIResource.QuickHelp_HELP)
+// Elapsed time: 16 seconds
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (RDIResource.HPopupTitle_CLOSE)
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // f (PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // g (dialog11)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 22 
+// Tcl Message: [Mon May 19 09:37:13 2025] Launched synth_1... Run output will be captured here: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/synth_1/runme.log 
+// 'i' command handler elapsed time: 33 seconds
+dismissDialog("Starting Design Runs"); // bh (Starting Design Runs Progress)
+// TclEventType: RUN_STATUS_CHANGE

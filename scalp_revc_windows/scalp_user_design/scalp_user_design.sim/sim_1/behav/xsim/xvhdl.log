@@ -1,0 +1,45 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ipshared/3ff2/src/scalp_axi_link.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_axi_link'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_firmwareid_0/sim/scalp_zynqps_scalp_axi_link_firmwareid_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_scalp_axi_link_firmwareid_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/sim/scalp_zynqps_axi_gpio_switches_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_switches_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/sim/scalp_zynqps_axi_intc_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_intc_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/sim/scalp_zynqps_axi_gpio_reset_btn_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_reset_btn_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/sim/bd_c0d9_ila_lib_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_c0d9_ila_lib_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/sim/bd_c0d9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_c0d9'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/sim/scalp_zynqps_system_ila_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_system_ila_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_cplx_num_regs_0/sim/scalp_zynqps_scalp_axi_link_cplx_num_regs_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/sim/scalp_zynqps_rst_ps7_0_125M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_rst_ps7_0_125M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/sim/scalp_zynqps_axi_iic_ioext_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_iic_ioext_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/sim/scalp_zynqps_axi_gpio_joystick_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_joystick_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/sim/scalp_zynqps.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'm00_couplers_imp_FF8Z4U'
+INFO: [VRFC 10-3107] analyzing entity 'm01_couplers_imp_931Y5A'
+INFO: [VRFC 10-3107] analyzing entity 'm02_couplers_imp_75GW2M'
+INFO: [VRFC 10-3107] analyzing entity 'm03_couplers_imp_455P5Q'
+INFO: [VRFC 10-3107] analyzing entity 'm04_couplers_imp_TQZ7BY'
+INFO: [VRFC 10-3107] analyzing entity 'm05_couplers_imp_YFU1B2'
+INFO: [VRFC 10-3107] analyzing entity 'm06_couplers_imp_J98Y8U'
+INFO: [VRFC 10-3107] analyzing entity 's00_couplers_imp_BVJLL9'
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_ps7_0_axi_periph_0'
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd" into library scalp_lib
+ERROR: [VRFC 10-2989] 't_axi_read_ctrl_regfile_m2s' is not declared [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd:288]
+ERROR: [VRFC 10-9458] unit 'scalp_axi_pkg' is ignored due to previous errors [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd:32]
+INFO: [VRFC 10-8704] VHDL file 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd' is ignored due to errors

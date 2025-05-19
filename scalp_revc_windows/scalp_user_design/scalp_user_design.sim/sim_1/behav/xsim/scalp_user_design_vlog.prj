@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../scalp_zynqps/ipshared/ec67/hdl" --include "../../../../../scalp_zynqps/ipshared/86fe/hdl" --include "../../../../../scalp_zynqps/ipshared/3cbc" --include "../../../../../scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ipshared/3cbc" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_clk_wiz.v" \
+"../../../../scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/sim/scalp_zynqps_gnd_constant_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/sim/scalp_zynqps_processing_system7_0_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/sim/scalp_zynqps_xlconcat_0_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0_clk_wiz.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v" \
+"../../../../scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0/sim/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

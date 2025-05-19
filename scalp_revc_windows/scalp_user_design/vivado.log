@@ -1,0 +1,1089 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May 19 09:13:23 2025
+# Process ID         : 24232
+# Current directory  : C:/CochetLPSC/scalp_revc_windows/scalp_user_design
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent29860 C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.xpr
+# Log file           : C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado.log
+# Journal file       : C:/CochetLPSC/scalp_revc_windows/scalp_user_design\vivado.jou
+# Running On         : Torchet
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 185H
+# CPU Frequency      : 3072 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33687 MB
+# Swap memory        : 2166 MB
+# Total Virtual      : 35854 MB
+# Available Virtual  : 10648 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.xpr
+INFO: [Project 1-313] Project file moved from '/home/jo/projects/scalp_revc_windows/scalp_user_design' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/../../tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx', nor could it be found using path 'C:/tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_processing_system7_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_xbar_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_auto_pc_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_axi_gpio_switches_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_axi_intc_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_axi_gpio_reset_btn_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_system_ila_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_rst_ps7_0_125M_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_sys_clock_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_axi_iic_ioext_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'scalp_zynqps_axi_gpio_joystick_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/CochetLPSC/scalp_revc_windows'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/CochetLPSC/scalp_revc_windows' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/CochetLPSC/scalp_revc_windows/scalp_user_design'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'scalp_zynqps.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+scalp_zynqps_gnd_constant_0
+scalp_zynqps_ps7_0_axi_periph_0
+scalp_zynqps_auto_pc_0
+scalp_zynqps_xbar_0
+scalp_zynqps_axi_gpio_switches_0
+scalp_zynqps_axi_intc_0_0
+scalp_zynqps_axi_gpio_reset_btn_0
+scalp_zynqps_xlconcat_0_0
+scalp_zynqps_axi_gpio_joystick_0
+scalp_zynqps_rst_ps7_0_125M_0
+scalp_zynqps_system_ila_0_0
+scalp_zynqps_sys_clock_0
+scalp_zynqps_axi_iic_ioext_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'vga_hdmi_clk_rst_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+vga_hdmi_clk_rst_system_vga_hdmi_clock_0
+vga_hdmi_clk_rst_system_rst_ps7_1_vga_0
+vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0
+
+INFO: [Project 1-230] Project 'scalp_user_design.xpr' upgraded for this version of Vivado.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1286.023 ; gain = 177.211
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -log ip_upgrade.log
+Reading block design file <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd>...
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - gnd_constant
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- hepia.hesge.ch:user:scalp_axi_link:1.0 - scalp_axi_link_firmwareid
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_switches
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_reset_btn
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- hepia.hesge.ch:user:scalp_axi_link:1.0 - scalp_axi_link_cplx_num_regs
+Adding Block Design Container - vga_hdmi_clk_rst_sys_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_125M
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - sys_clock
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_ioext
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_joystick
+Successfully read diagram <scalp_zynqps> from block design file <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd>
+WARNING: [BD 41-1287] Associated interface by name SLOT_0_AXI not found for clock port /clk
+Upgrading 'C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd'
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_joystick_0 (AXI GPIO 2.0) from revision 31 to revision 35
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_reset_btn_0 (AXI GPIO 2.0) from revision 31 to revision 35
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_gpio_switches_0 (AXI GPIO 2.0) from revision 31 to revision 35
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_iic_ioext_0 (AXI IIC 2.1) from revision 5 to revision 9
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_axi_intc_0_0 (AXI Interrupt Controller 4.1) from revision 18 to revision 20
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_gnd_constant_0 (Constant 1.1) from revision 8 to revision 9
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_ps7_0_axi_periph_0 (AXI Interconnect 2.1) from revision 30 to revision 34
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_rst_ps7_0_125M_0 (Processor System Reset 5.0) from revision 14 to revision 16
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [Device 21-403] Loading part xc7z015clg485-2
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_sys_clock_0 (Clocking Wizard 6.0) from revision 13 to revision 15
+ipx::get_ipfiles: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1735.305 ; gain = 3.211
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_system_ila_0_0 (System ILA 1.1) from revision 15 to revision 19
+INFO: [IP_Flow 19-3422] Upgraded scalp_zynqps_xlconcat_0_0 (Concat 2.1) from revision 5 to revision 6
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\scalp_zynqps.bd> 
+Wrote  : <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ui/bd_bb8b562f.ui> 
+Reading block design file <C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/vga_hdmi_clk_rst_system.bd>...
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - vga_hdmi_clock
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_1_vga
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_2_hdmi
+Successfully read diagram <vga_hdmi_clk_rst_system> from block design file <C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/vga_hdmi_clk_rst_system.bd>
+Upgrading 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/vga_hdmi_clk_rst_system.bd'
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_rst_ps7_1_vga_0 (Processor System Reset 5.0) from revision 14 to revision 16
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 (Processor System Reset 5.0) from revision 14 to revision 16
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded vga_hdmi_clk_rst_system_vga_hdmi_clock_0 (Clocking Wizard 6.0) from revision 13 to revision 15
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.srcs\sources_1\bd\vga_hdmi_clk_rst_system\vga_hdmi_clk_rst_system.bd> 
+Wrote  : <C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/bd/vga_hdmi_clk_rst_system/ui/bd_eed40e30.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:36 ; elapsed = 00:00:49 . Memory (MB): peak = 1800.859 ; gain = 116.207
+export_ip_user_files -of_objects [get_ips {scalp_zynqps_rst_ps7_0_125M_0 scalp_zynqps_xlconcat_0_0 scalp_zynqps_system_ila_0_0 scalp_zynqps_axi_iic_ioext_0 scalp_zynqps_axi_gpio_reset_btn_0 scalp_zynqps_sys_clock_0 scalp_zynqps_axi_gpio_joystick_0 scalp_zynqps_axi_gpio_switches_0 scalp_zynqps_axi_intc_0_0 scalp_zynqps_ps7_0_axi_periph_0 scalp_zynqps_gnd_constant_0 vga_hdmi_clk_rst_system_vga_hdmi_clock_0 vga_hdmi_clk_rst_system_rst_ps7_2_hdmi_0 vga_hdmi_clk_rst_system_rst_ps7_1_vga_0}] -no_script -sync -force -quiet
+open_bd_design C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd
+upgrade_bd_cells [get_bd_cells vga_hdmi_clk_rst_sys_0]
+INFO: [BD 41-1794] Referenced block design(vga_hdmi_clk_rst_system.bd) is not validated, the design will be opening in background if not open and then validating...
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clock clk_wiz propagate
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_user_design\scalp_user_design.srcs\sources_1\bd\vga_hdmi_clk_rst_system\vga_hdmi_clk_rst_system.bd> 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+Wrote  : <C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ui/bd_f5624d46.ui> 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+upgrade_bd_cells: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1846.422 ; gain = 45.562
+save_bd_design 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\scalp_zynqps.bd> 
+generate_target all [get_files C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd]
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [#UNDEF] When using EMIO pins for SPI_1 tie SSIN High in the PL bitstream
+INFO: [BD 41-3094] DFX Aperture DRC completed with 0 info(s), 0 warning(s), 0 critical warning(s), and 0 error(s).
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /sys_clock clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /sys_clock clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /vga_hdmi_clk_rst_sys_0/vga_hdmi_clock clk_wiz propagate
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\scalp_zynqps.bd> 
+WARNING: [BD 41-3257] Drive strength cannot be preserved for ports connected to net axi_gpio_0_ip2intc_irpt as it is marked for debug
+WARNING: [BD 41-3257] Drive strength cannot be preserved for ports connected to net axi_intc_0_irq as it is marked for debug
+WARNING: [BD 41-3256] Drive strength cannot be preserved for ports connected to net sys_clock_clk_126 as it connected to debug IP /system_ila_0 
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd
+WARNING: [BD 41-3257] Drive strength cannot be preserved for ports connected to net axi_gpio_0_ip2intc_irpt as it is marked for debug
+WARNING: [BD 41-3257] Drive strength cannot be preserved for ports connected to net axi_intc_0_irq as it is marked for debug
+WARNING: [BD 41-3256] Drive strength cannot be preserved for ports connected to net sys_clock_clk_126 as it connected to debug IP /system_ila_0 
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/sim/scalp_zynqps.vhd
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/hdl/scalp_zynqps_wrapper.vhd
+Wrote  : <C:\CochetLPSC\scalp_revc_windows\scalp_zynqps\bd\vga_hdmi_clk_rst_system_inst_0\vga_hdmi_clk_rst_system_inst_0.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gnd_constant .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block scalp_axi_link_firmwareid .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_switches .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_reset_btn .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/scalp_zynqps_system_ila_0_0_ooc.xdc'
+Exporting to file c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/hw_handoff/scalp_zynqps_system_ila_0_0.hwh
+Generated Hardware Definition File c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/synth/scalp_zynqps_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block scalp_axi_link_cplx_num_regs .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_125M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_clock .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_ioext .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_joystick .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1662] The design 'vga_hdmi_clk_rst_system_inst_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd
+VHDL Output written to : C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/hdl/vga_hdmi_clk_rst_system_inst_0_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vga_hdmi_clock .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_1_vga .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_2_hdmi .
+Exporting to file C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/hw_handoff/vga_hdmi_clk_rst_system_inst_0.hwh
+Generated Hardware Definition File C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.hwdef
+Exporting to file C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/hw_handoff/scalp_zynqps.hwh
+Generated Hardware Definition File C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.hwdef
+generate_target: Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2004.281 ; gain = 157.859
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd]
+launch_runs scalp_zynqps_axi_gpio_joystick_0_synth_1 scalp_zynqps_axi_gpio_reset_btn_0_synth_1 scalp_zynqps_axi_gpio_switches_0_synth_1 scalp_zynqps_axi_iic_ioext_0_synth_1 scalp_zynqps_axi_intc_0_0_synth_1 scalp_zynqps_processing_system7_0_0_synth_1 scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1 scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 scalp_zynqps_rst_ps7_0_125M_0_synth_1 scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1 scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1 scalp_zynqps_sys_clock_0_synth_1 scalp_zynqps_system_ila_0_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1 vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1 -jobs 22
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_axi_gpio_joystick_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_axi_gpio_reset_btn_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_axi_gpio_switches_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_axi_iic_ioext_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_axi_intc_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_rst_ps7_0_125M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_scalp_axi_link_cplx_num_regs_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_scalp_axi_link_firmwareid_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_sys_clock_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: scalp_zynqps_system_ila_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0
+[Mon May 19 09:19:39 2025] Launched scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1...
+Run output will be captured here:
+scalp_zynqps_axi_gpio_joystick_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_joystick_0_synth_1/runme.log
+scalp_zynqps_axi_gpio_reset_btn_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_reset_btn_0_synth_1/runme.log
+scalp_zynqps_axi_gpio_switches_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_gpio_switches_0_synth_1/runme.log
+scalp_zynqps_axi_iic_ioext_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_iic_ioext_0_synth_1/runme.log
+scalp_zynqps_axi_intc_0_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_axi_intc_0_0_synth_1/runme.log
+scalp_zynqps_processing_system7_0_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_processing_system7_0_0_synth_1/runme.log
+scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1/runme.log
+scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1/runme.log
+scalp_zynqps_rst_ps7_0_125M_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_rst_ps7_0_125M_0_synth_1/runme.log
+scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1/runme.log
+scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1/runme.log
+scalp_zynqps_sys_clock_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_sys_clock_0_synth_1/runme.log
+scalp_zynqps_system_ila_0_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/scalp_zynqps_system_ila_0_0_synth_1/runme.log
+vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1/runme.log
+vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1/runme.log
+vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1/runme.log
+wait_on_run scalp_zynqps_axi_gpio_joystick_0_synth_1 scalp_zynqps_axi_gpio_reset_btn_0_synth_1 scalp_zynqps_axi_gpio_switches_0_synth_1 scalp_zynqps_axi_iic_ioext_0_synth_1 scalp_zynqps_axi_intc_0_0_synth_1 scalp_zynqps_processing_system7_0_0_synth_1 scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1 scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1 scalp_zynqps_rst_ps7_0_125M_0_synth_1 scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1 scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1 scalp_zynqps_sys_clock_0_synth_1 scalp_zynqps_system_ila_0_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1 vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1 vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1
+[Mon May 19 09:19:39 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:19:45 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:19:50 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:19:55 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:20:05 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:20:15 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:20:26 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:20:36 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:20:57 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:21:17 2025] Waiting for {scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1} to finish...
+[Mon May 19 09:21:38 2025] Waiting for {scalp_zynqps_system_ila_0_0_synth_1} to finish...
+[Mon May 19 09:21:58 2025] Waiting for {scalp_zynqps_system_ila_0_0_synth_1} to finish...
+[Mon May 19 09:22:18 2025] scalp_zynqps_axi_gpio_joystick_0_synth_1, scalp_zynqps_axi_gpio_reset_btn_0_synth_1, scalp_zynqps_axi_gpio_switches_0_synth_1, scalp_zynqps_axi_iic_ioext_0_synth_1, scalp_zynqps_axi_intc_0_0_synth_1, scalp_zynqps_processing_system7_0_0_synth_1, scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_synth_1, scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1, scalp_zynqps_rst_ps7_0_125M_0_synth_1, scalp_zynqps_scalp_axi_link_cplx_num_regs_0_synth_1, scalp_zynqps_scalp_axi_link_firmwareid_0_synth_1, scalp_zynqps_sys_clock_0_synth_1, scalp_zynqps_system_ila_0_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_synth_1, vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_synth_1, vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:02:39 . Memory (MB): peak = 2022.512 ; gain = 18.230
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z015clg485-2
+Top: scalp_user_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28956
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2497.785 ; gain = 469.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'scalp_user_design' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_wrapper' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:101]
+	Parameter C_AXI4_ARADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_AXI4_RDATA_SIZE bound to: 32 - type: integer 
+	Parameter C_AXI4_RRESP_SIZE bound to: 2 - type: integer 
+	Parameter C_AXI4_AWADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_AXI4_WDATA_SIZE bound to: 32 - type: integer 
+	Parameter C_AXI4_WSTRB_SIZE bound to: 4 - type: integer 
+	Parameter C_AXI4_BRESP_SIZE bound to: 2 - type: integer 
+	Parameter C_GPIO_SWITCHES_SIZE bound to: 2 - type: integer 
+	Parameter C_GPIO_JOYSTICK_SIZE bound to: 5 - type: integer 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: LVCMOS25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'IoExtIICSclxI' to cell 'IOBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:120]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: LVCMOS25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'IoExtIICSdaxI' to cell 'IOBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:1879]
+INFO: [Synth 8-3491] module 'scalp_zynqps_axi_gpio_joystick_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_joystick_0_stub.vhdl:6' bound to instance 'axi_gpio_joystick' of component 'scalp_zynqps_axi_gpio_joystick_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2529]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_axi_gpio_joystick_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_joystick_0_stub.vhdl:39]
+INFO: [Synth 8-3491] module 'scalp_zynqps_axi_gpio_reset_btn_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_reset_btn_0_stub.vhdl:6' bound to instance 'axi_gpio_reset_btn' of component 'scalp_zynqps_axi_gpio_reset_btn_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2553]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_axi_gpio_reset_btn_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_reset_btn_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'scalp_zynqps_axi_gpio_switches_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_switches_0_stub.vhdl:6' bound to instance 'axi_gpio_switches' of component 'scalp_zynqps_axi_gpio_switches_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2576]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_axi_gpio_switches_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_gpio_switches_0_stub.vhdl:39]
+INFO: [Synth 8-3491] module 'scalp_zynqps_axi_iic_ioext_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_iic_ioext_0_stub.vhdl:6' bound to instance 'axi_iic_ioext' of component 'scalp_zynqps_axi_iic_ioext_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2600]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_axi_iic_ioext_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_iic_ioext_0_stub.vhdl:45]
+INFO: [Synth 8-3491] module 'scalp_zynqps_axi_intc_0_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_intc_0_0_stub.vhdl:6' bound to instance 'axi_intc_0' of component 'scalp_zynqps_axi_intc_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2630]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_axi_intc_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_axi_intc_0_0_stub.vhdl:39]
+INFO: [Synth 8-3491] module 'scalp_zynqps_gnd_constant_0' declared at 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/synth/scalp_zynqps_gnd_constant_0.v:53' bound to instance 'gnd_constant' of component 'scalp_zynqps_gnd_constant_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2654]
+INFO: [Synth 8-6157] synthesizing module 'scalp_zynqps_gnd_constant_0' [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/synth/scalp_zynqps_gnd_constant_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'scalp_zynqps_gnd_constant_0' (0#1) [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/synth/scalp_zynqps_gnd_constant_0.v:53]
+INFO: [Synth 8-3491] module 'scalp_zynqps_processing_system7_0_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'scalp_zynqps_processing_system7_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2658]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_processing_system7_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_processing_system7_0_0_stub.vhdl:98]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_ps7_0_axi_periph_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:1100]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_FF8Z4U' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_FF8Z4U' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_931Y5A' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_931Y5A' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_75GW2M' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:260]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_75GW2M' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_455P5Q' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:361]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_455P5Q' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:361]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_TQZ7BY' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:462]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_TQZ7BY' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:462]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_YFU1B2' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:563]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_YFU1B2' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:563]
+INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_J98Y8U' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:664]
+INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_J98Y8U' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:664]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_BVJLL9' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:788]
+INFO: [Synth 8-3491] module 'scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:853]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0_stub.vhdl:77]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_BVJLL9' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:788]
+INFO: [Synth 8-3491] module 'scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:1637]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_stub.vhdl:58]
+INFO: [Synth 8-256] done synthesizing module 'scalp_zynqps_ps7_0_axi_periph_0' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:1100]
+INFO: [Synth 8-3491] module 'scalp_zynqps_rst_ps7_0_125M_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_rst_ps7_0_125M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_125M' of component 'scalp_zynqps_rst_ps7_0_125M_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2919]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_rst_ps7_0_125M_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_rst_ps7_0_125M_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_scalp_axi_link_cplx_num_regs_0_stub.vhdl:6' bound to instance 'scalp_axi_link_cplx_num_regs' of component 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2932]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_scalp_axi_link_cplx_num_regs_0_stub.vhdl:56]
+INFO: [Synth 8-3491] module 'scalp_zynqps_scalp_axi_link_firmwareid_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_scalp_axi_link_firmwareid_0_stub.vhdl:6' bound to instance 'scalp_axi_link_firmwareid' of component 'scalp_zynqps_scalp_axi_link_firmwareid_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:2973]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_scalp_axi_link_firmwareid_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_scalp_axi_link_firmwareid_0_stub.vhdl:56]
+INFO: [Synth 8-3491] module 'scalp_zynqps_sys_clock_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_sys_clock_0_stub.vhdl:6' bound to instance 'sys_clock' of component 'scalp_zynqps_sys_clock_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3014]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_sys_clock_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_sys_clock_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'scalp_zynqps_system_ila_0_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_system_ila_0_0_stub.vhdl:6' bound to instance 'system_ila_0' of component 'scalp_zynqps_system_ila_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3021]
+INFO: [Synth 8-638] synthesizing module 'scalp_zynqps_system_ila_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/scalp_zynqps_system_ila_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'vga_hdmi_clk_rst_system_inst_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:15' bound to instance 'vga_hdmi_clk_rst_sys_0' of component 'vga_hdmi_clk_rst_system_inst_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3030]
+INFO: [Synth 8-638] synthesizing module 'vga_hdmi_clk_rst_system_inst_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:33]
+INFO: [Synth 8-3491] module 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_stub.vhdl:6' bound to instance 'rst_ps7_1_vga' of component 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_stub.vhdl:6' bound to instance 'rst_ps7_2_hdmi' of component 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0' declared at 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_stub.vhdl:6' bound to instance 'vga_hdmi_clock' of component 'vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/.Xil/Vivado-24232-Torchet/realtime/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_stub.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'vga_hdmi_clk_rst_system_inst_0' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/synth/vga_hdmi_clk_rst_system_inst_0.vhd:33]
+INFO: [Synth 8-3491] module 'scalp_zynqps_xlconcat_0_0' declared at 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/synth/scalp_zynqps_xlconcat_0_0.v:53' bound to instance 'xlconcat_0' of component 'scalp_zynqps_xlconcat_0_0' [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3042]
+INFO: [Synth 8-6157] synthesizing module 'scalp_zynqps_xlconcat_0_0' [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/synth/scalp_zynqps_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_6_xlconcat' [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_6_xlconcat' (0#1) [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'scalp_zynqps_xlconcat_0_0' (0#1) [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/synth/scalp_zynqps_xlconcat_0_0.v:53]
+INFO: [Synth 8-256] done synthesizing module 'scalp_zynqps' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:1879]
+INFO: [Synth 8-256] done synthesizing module 'scalp_zynqps_wrapper' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_zynqps_user.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'scalp_firmwareid' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_firmwareid.vhd:61]
+	Parameter C_REGS_ADDR_SIZE bound to: 4096 - type: integer 
+	Parameter C_NB_REGS_IN bound to: 0 - type: integer 
+	Parameter C_NB_REGS_OUT bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'scalp_firmwareid' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_firmwareid.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'scalp_pwm' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_pwm.vhd:47]
+	Parameter C_PWM_SIZE bound to: 8 - type: integer 
+	Parameter C_CLK_CNT_LEN bound to: 256 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'scalp_pwm' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_pwm.vhd:47]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed1RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:623]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed2RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:632]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed1GxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:666]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed2RxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:675]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed1BxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:709]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutBufLed2BxI' to cell 'OBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:718]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufSwitch0xI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:735]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufSwitch0xI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:735]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'InBufJoystickIdxxI' to cell 'IBUF' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:750]
+INFO: [Synth 8-638] synthesizing module 'scalp_cplx_num_regs' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_cplx_num_regs.vhd:61]
+	Parameter C_REGS_ADDR_SIZE bound to: 4096 - type: integer 
+	Parameter C_NB_REGS_IN bound to: 0 - type: integer 
+	Parameter C_NB_REGS_OUT bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'scalp_cplx_num_regs' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_cplx_num_regs.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'scalp_hdmi' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi.vhd:52]
+	Parameter C_VGA_CONFIG[HActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[VActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[HFrontPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[HBackPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[VFrontPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VBackPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[HSyncLenxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VSyncLenxD] bound to: 16'b0000000000001000 
+	Parameter C_VGA_CONFIG[HLenxD] bound to: 16'b0000001110101100 
+	Parameter C_VGA_CONFIG[VLenxD] bound to: 16'b0000001100000000 
+	Parameter C_VGA_CONFIG[HSyncActivexD] bound to: 16'b0000000000000000 
+	Parameter C_VGA_CONFIG[VSyncActivexD] bound to: 16'b0000000000000000 
+INFO: [Synth 8-638] synthesizing module 'vga' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga.vhd:48]
+	Parameter C_VGA_CONFIG[HActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[VActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[HFrontPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[HBackPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[VFrontPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VBackPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[HSyncLenxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VSyncLenxD] bound to: 16'b0000000000001000 
+	Parameter C_VGA_CONFIG[HLenxD] bound to: 16'b0000001110101100 
+	Parameter C_VGA_CONFIG[VLenxD] bound to: 16'b0000001100000000 
+	Parameter C_VGA_CONFIG[HSyncActivexD] bound to: 16'b0000000000000000 
+	Parameter C_VGA_CONFIG[VSyncActivexD] bound to: 16'b0000000000000000 
+INFO: [Synth 8-638] synthesizing module 'vga_stripes' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'vga_stripes' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'vga_controler' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_controler.vhd:47]
+	Parameter C_VGA_CONFIG[HActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[VActivexD] bound to: 16'b0000001011010000 
+	Parameter C_VGA_CONFIG[HFrontPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[HBackPorchxD] bound to: 16'b0000000001100100 
+	Parameter C_VGA_CONFIG[VFrontPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VBackPorchxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[HSyncLenxD] bound to: 16'b0000000000010100 
+	Parameter C_VGA_CONFIG[VSyncLenxD] bound to: 16'b0000000000001000 
+	Parameter C_VGA_CONFIG[HLenxD] bound to: 16'b0000001110101100 
+	Parameter C_VGA_CONFIG[VLenxD] bound to: 16'b0000001100000000 
+	Parameter C_VGA_CONFIG[HSyncActivexD] bound to: 16'b0000000000000000 
+	Parameter C_VGA_CONFIG[VSyncActivexD] bound to: 16'b0000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'vga_controler' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_controler.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'vga' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'vga_to_hdmi' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'tmds_encoder' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/tmds_encoder.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'tmds_encoder' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/tmds_encoder.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'tmds_encoder__parameterized0' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/tmds_encoder.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'tmds_encoder__parameterized0' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/tmds_encoder.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'serializer_10_to_1' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:44]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b1 
+	Parameter INIT_TQ bound to: 1'b1 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'MasterOSERDESE2xI' to cell 'OSERDESE2' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:60]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b1 
+	Parameter INIT_TQ bound to: 1'b1 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SlaveOSERDESE2xI' to cell 'OSERDESE2' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'serializer_10_to_1' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/serializer_10_to_1.vhd:44]
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160]
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160]
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxCNxI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:160]
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-113] binding component instance 'OBufDSHdmiTxC3xI' to cell 'OBUFDS' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'vga_to_hdmi' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_to_hdmi.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'scalp_hdmi' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_hdmi.vhd:52]
+	Parameter BRAM_SIZE bound to: 18Kb - type: string 
+	Parameter DEVICE bound to: 7SERIES - type: string 
+	Parameter DO_REG bound to: 0 - type: integer 
+	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_FILE bound to: NONE - type: string 
+	Parameter READ_WIDTH bound to: 32 - type: integer 
+	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'BRAM_SDP_MACRO' declared at 'C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:38' bound to instance 'BramSDPMacro1xI' of component 'BRAM_SDP_MACRO' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:839]
+INFO: [Synth 8-638] synthesizing module 'unimacro_BRAM_SDP_MACRO' [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:217]
+	Parameter BRAM_SIZE bound to: 18Kb - type: string 
+	Parameter DEVICE bound to: 7SERIES - type: string 
+	Parameter DO_REG bound to: 0 - type: integer 
+	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_40 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_41 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_42 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_43 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_44 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_45 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_46 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_47 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_48 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_49 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_4F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_50 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_51 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_52 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_53 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_54 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_55 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_56 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_57 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_58 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_59 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_5F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_60 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_61 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_62 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_63 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_64 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_65 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_66 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_67 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_68 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_69 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_6F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_70 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_71 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_72 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_73 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_74 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_75 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_76 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_77 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_78 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_79 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_7F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_FILE bound to: NONE - type: string 
+	Parameter READ_WIDTH bound to: 32 - type: integer 
+	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_WIDTH bound to: 32 - type: integer 
+	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter SIM_MODE bound to: SAFE - type: string 
+	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter DOA_REG bound to: 0 - type: integer 
+	Parameter DOB_REG bound to: 0 - type: integer 
+	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_A bound to: 20'b00000000000000000000 
+	Parameter INIT_B bound to: 20'b00000000000000000000 
+	Parameter INIT_FILE bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: SDP - type: string 
+	Parameter READ_WIDTH_A bound to: 36 - type: integer 
+	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL_A bound to: 20'b00000000000000000000 
+	Parameter SRVAL_B bound to: 20'b00000000000000000000 
+	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
+INFO: [Synth 8-113] binding component instance 'ram18sd_bl3' to cell 'RAMB18E1' [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:2730]
+INFO: [Synth 8-256] done synthesizing module 'unimacro_BRAM_SDP_MACRO' (0#1) [C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:217]
+	Parameter BRAM_SIZE bound to: 18Kb - type: string 
+	Parameter DEVICE bound to: 7SERIES - type: string 
+	Parameter DO_REG bound to: 0 - type: integer 
+	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_FILE bound to: NONE - type: string 
+	Parameter READ_WIDTH bound to: 32 - type: integer 
+	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'BRAM_SDP_MACRO' declared at 'C:/Xilinx/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd:38' bound to instance 'BramSDPMacro2xI' of component 'BRAM_SDP_MACRO' [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:864]
+INFO: [Synth 8-256] done synthesizing module 'scalp_user_design' (0#1) [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:309]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlconcat_0'. This will prevent further optimization [C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/synth/scalp_zynqps.vhd:3042]
+WARNING: [Synth 8-3848] Net VgaPixCounterxDO[VidOnxS] in module/entity vga_stripes does not have driver. [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/vga_stripes.vhd:39]
+WARNING: [Synth 8-3848] Net Pll2V5GOExSO in module/entity scalp_user_design does not have driver. [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:86]
+WARNING: [Synth 8-3848] Net Pll2V5SyncxSO in module/entity scalp_user_design does not have driver. [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_user_design.vhd:88]
+WARNING: [Synth 8-7129] Port ClocksxCI[VgaResetxRNA] in module serializer_10_to_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[HdmiResetxR] in module serializer_10_to_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[HdmiResetxRNA] in module serializer_10_to_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[PllLockedxS] in module serializer_10_to_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HdmixDIO[InxD][HpdxS] in module vga_to_hdmi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[HdmixC] in module vga_controler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[VgaResetxRNA] in module vga_controler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[HdmiResetxR] in module vga_controler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ClocksxCI[HdmiResetxRNA] in module vga_controler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port VgaPixCounterxDO[VidOnxS] in module vga_stripes is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[ResetxR][RstxRAN] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][3] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][2] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][1] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][0] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][2] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][1] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][0] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][3] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][2] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][1] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][0] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][2] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][1] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][0] in module scalp_cplx_num_regs is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[ResetxR][RstxRAN] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][3] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][2] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][1] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARCachexD][0] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][2] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][1] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[RdxD][AddrxD][M2SxD][ARProtxD][0] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][3] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][2] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][1] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWCachexD][0] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][2] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][1] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AxiSlvxDIO[WrxD][AddrxD][M2SxD][AWProtxD][0] in module scalp_firmwareid is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2635.305 ; gain = 606.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2653.141 ; gain = 624.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2653.141 ; gain = 624.637
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_joystick'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_reset_btn'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_switches'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/scalp_zynqps_axi_iic_ioext_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_iic_ioext'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/rst_ps7_0_125M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_cplx_num_regs_0/scalp_zynqps_scalp_axi_link_cplx_num_regs_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/scalp_axi_link_cplx_num_regs'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_firmwareid_0/scalp_zynqps_scalp_axi_link_firmwareid_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/scalp_axi_link_firmwareid'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/sys_clock'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/scalp_zynqps_system_ila_0_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/system_ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_1_vga'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_2_hdmi'
+INFO: [Project 1-454] Reading design checkpoint 'c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.dcp' for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/vga_hdmi_clock'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.177 . Memory (MB): peak = 2679.637 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 101 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/processing_system7_0/inst'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/scalp_zynqps_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_switches/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_switches/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_switches/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/scalp_zynqps_axi_gpio_switches_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_switches/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_reset_btn/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_reset_btn/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_reset_btn/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/scalp_zynqps_axi_gpio_reset_btn_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_reset_btn/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/system_ila_0/U0/ila_lib/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/system_ila_0/U0/ila_lib/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/rst_ps7_0_125M/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/rst_ps7_0_125M/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/rst_ps7_0_125M/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/rst_ps7_0_125M/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/scalp_zynqps_rst_ps7_0_125M_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/sys_clock/inst'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/sys_clock/inst'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/sys_clock/inst'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/sys_clock/inst'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/scalp_zynqps_axi_iic_ioext_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_iic_ioext/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/scalp_zynqps_axi_iic_ioext_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_iic_ioext/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_joystick/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_joystick/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_joystick/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/scalp_zynqps_axi_gpio_joystick_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_gpio_joystick/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/vga_hdmi_clock/inst'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/vga_hdmi_clock/inst'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/vga_hdmi_clock/inst'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/vga_hdmi_clock/inst'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_1_vga/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_1_vga/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_1_vga/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_1_vga/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_2_hdmi/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0_board.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_2_hdmi/U0'
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_2_hdmi/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/vga_hdmi_clk_rst_sys_0/rst_ps7_2_hdmi/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/debug.xdc]
+Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/debug.xdc]
+Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc]
+Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/scalp_firmware.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/scalp_user_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/scalp_user_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/timing_constraints.xdc]
+Finished Parsing XDC File [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/constrs_1/imports/files/timing_constraints.xdc]
+Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0_clocks.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0'
+Finished Parsing XDC File [c:/CochetLPSC/scalp_revc_windows/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/scalp_zynqps_axi_intc_0_0_clocks.xdc] for cell 'PSxB.ZynqxI/PlatformxB.ScalpZynqPSxI/axi_intc_0/U0'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2775.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 38 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 36 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 3141.922 ; gain = 1113.418
+150 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:33 . Memory (MB): peak = 3141.922 ; gain = 1119.410
+open_bd_design {C:/CochetLPSC/scalp_revc_windows/scalp_zynqps/scalp_zynqps.bd}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'scalp_user_design'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'scalp_user_design' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_19 -L processing_system7_vip_v1_0_21 -L xilinx_vip -prj scalp_user_design_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/sim/scalp_zynqps_gnd_constant_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_gnd_constant_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/sim/scalp_zynqps_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/sim/scalp_zynqps_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_sys_clock_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_sys_clock_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:152]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:153]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:155]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:156]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:158]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:159]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:161]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:162]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:164]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:165]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:167]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0/sim/scalp_zynqps_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0.v:168]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0/sim/scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scalp_zynqps_ps7_0_axi_periph_imp_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj scalp_user_design_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/sim/vga_hdmi_clk_rst_system_inst_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_1_vga_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0/sim/vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_hdmi_clk_rst_system_inst_0_rst_ps7_2_hdmi_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ipshared/3ff2/src/scalp_axi_link.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_axi_link'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_firmwareid_0/sim/scalp_zynqps_scalp_axi_link_firmwareid_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_scalp_axi_link_firmwareid_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_switches_0/sim/scalp_zynqps_axi_gpio_switches_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_switches_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_intc_0_0/sim/scalp_zynqps_axi_intc_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_intc_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_reset_btn_0/sim/scalp_zynqps_axi_gpio_reset_btn_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_reset_btn_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/ip/ip_0/sim/bd_c0d9_ila_lib_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_c0d9_ila_lib_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/bd_0/sim/bd_c0d9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_c0d9'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/sim/scalp_zynqps_system_ila_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_system_ila_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_scalp_axi_link_cplx_num_regs_0/sim/scalp_zynqps_scalp_axi_link_cplx_num_regs_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_scalp_axi_link_cplx_num_regs_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_rst_ps7_0_125M_0/sim/scalp_zynqps_rst_ps7_0_125M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_rst_ps7_0_125M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_iic_ioext_0/sim/scalp_zynqps_axi_iic_ioext_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_iic_ioext_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/ip/scalp_zynqps_axi_gpio_joystick_0/sim/scalp_zynqps_axi_gpio_joystick_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_axi_gpio_joystick_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.ip_user_files/bd/scalp_zynqps/sim/scalp_zynqps.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'm00_couplers_imp_FF8Z4U'
+INFO: [VRFC 10-3107] analyzing entity 'm01_couplers_imp_931Y5A'
+INFO: [VRFC 10-3107] analyzing entity 'm02_couplers_imp_75GW2M'
+INFO: [VRFC 10-3107] analyzing entity 'm03_couplers_imp_455P5Q'
+INFO: [VRFC 10-3107] analyzing entity 'm04_couplers_imp_TQZ7BY'
+INFO: [VRFC 10-3107] analyzing entity 'm05_couplers_imp_YFU1B2'
+INFO: [VRFC 10-3107] analyzing entity 'm06_couplers_imp_J98Y8U'
+INFO: [VRFC 10-3107] analyzing entity 's00_couplers_imp_BVJLL9'
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps_ps7_0_axi_periph_0'
+INFO: [VRFC 10-3107] analyzing entity 'scalp_zynqps'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd" into library scalp_lib
+ERROR: [VRFC 10-2989] 't_axi_read_ctrl_regfile_m2s' is not declared [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd:288]
+ERROR: [VRFC 10-9458] unit 'scalp_axi_pkg' is ignored due to previous errors [C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd:32]
+INFO: [VRFC 10-8704] VHDL file 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.srcs/sources_1/imports/files/scalp_axi_pkg.vhd' is ignored due to errors
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 3427.770 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '11' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 3427.770 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException: Cannot invoke "java.awt.event.MouseEvent.getX()" because "<parameter2>" is null (See C:/CochetLPSC/scalp_revc_windows/scalp_user_design/vivado_pid24232.debug)
+launch_runs synth_1 -jobs 22
+[Mon May 19 09:37:13 2025] Launched synth_1...
+Run output will be captured here: C:/CochetLPSC/scalp_revc_windows/scalp_user_design/scalp_user_design.runs/synth_1/runme.log

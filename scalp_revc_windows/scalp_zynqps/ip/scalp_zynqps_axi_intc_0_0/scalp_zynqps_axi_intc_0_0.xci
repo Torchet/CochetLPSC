@@ -4,7 +4,7 @@
     "xci_name": "scalp_zynqps_axi_intc_0_0",
     "cell_name": "axi_intc_0",
     "component_reference": "xilinx.com:ip:axi_intc:4.1",
-    "ip_revision": "18",
+    "ip_revision": "20",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -80,12 +80,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "18" } ],
+        "IPREVISION": [ { "value": "20" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
-        "SWVERSION": [ { "value": "2023.2" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
       }
     },
@@ -219,7 +219,7 @@
           "abstraction_type": "xilinx.com:signal:interrupt_rtl:1.0",
           "mode": "slave",
           "parameters": {
-            "SENSITIVITY": [ { "value": "LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "SENSITIVITY": [ { "value": "LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "usage": "all" } ],
             "PortWidth": [ { "value": "3", "value_src": "ip_propagated", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {

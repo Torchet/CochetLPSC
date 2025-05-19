@@ -1,5 +1,5 @@
 // (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// (c) Copyright 2022-2024 Advanced Micro Devices, Inc. All rights reserved.
+// (c) Copyright 2022-2025 Advanced Micro Devices, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of AMD and is protected under U.S. and international copyright
@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:ip:xlconcat:2.1
-// IP Revision: 5
+// IP Revision: 6
 
 `timescale 1ns/1ps
 
@@ -65,7 +65,7 @@ input wire [0 : 0] In1;
 input wire [0 : 0] In2;
 output wire [2 : 0] dout;
 
-  xlconcat_v2_1_5_xlconcat #(
+  xlconcat_v2_1_6_xlconcat #(
     .IN0_WIDTH(1),
     .IN1_WIDTH(1),
     .IN2_WIDTH(1),
