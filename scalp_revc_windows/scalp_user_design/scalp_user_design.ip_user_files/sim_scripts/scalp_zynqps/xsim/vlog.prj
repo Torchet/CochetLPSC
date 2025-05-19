@@ -1,0 +1,15 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../../scalp_zynqps/ipshared/ec67/hdl" --include "../../../../../scalp_zynqps/ipshared/6b2b/hdl" --include "../../../../../scalp_zynqps/ipshared/e2ba/hdl/verilog" --include "../../../../../scalp_zynqps/ipshared/a29c/hdl/verilog" --include "../../../../../scalp_zynqps/ipshared/ae90/hdl/verilog" --include "../../../../../scalp_zynqps/ipshared/0e59/hdl/verilog" --include "../../../../../scalp_zynqps/ipshared/c2c6" \
+"../../../../../scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0_clk_wiz.v" \
+"../../../../../scalp_zynqps/bd/vga_hdmi_clk_rst_system_inst_0/ip/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0/vga_hdmi_clk_rst_system_inst_0_vga_hdmi_clock_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_gnd_constant_0/sim/scalp_zynqps_gnd_constant_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_processing_system7_0_0/sim/scalp_zynqps_processing_system7_0_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_xbar_0/sim/scalp_zynqps_xbar_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_auto_pc_0/sim/scalp_zynqps_auto_pc_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_xlconcat_0_0/sim/scalp_zynqps_xlconcat_0_0.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0_clk_wiz.v" \
+"../../../bd/scalp_zynqps/ip/scalp_zynqps_sys_clock_0/scalp_zynqps_sys_clock_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

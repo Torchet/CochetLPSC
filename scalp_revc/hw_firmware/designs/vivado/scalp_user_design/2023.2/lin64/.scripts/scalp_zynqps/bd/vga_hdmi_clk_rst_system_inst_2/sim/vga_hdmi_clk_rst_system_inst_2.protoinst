@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"vga_hdmi_clk_rst_system_inst_2": {
+			"proto_instances": {
+			}
+		}
+	}
+}

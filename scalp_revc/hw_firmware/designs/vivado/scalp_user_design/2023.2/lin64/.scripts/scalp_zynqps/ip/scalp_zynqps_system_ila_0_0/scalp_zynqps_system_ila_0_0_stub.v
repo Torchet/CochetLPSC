@@ -1,0 +1,24 @@
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+// Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+// --------------------------------------------------------------------------------
+// Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+// Date        : Tue Mar 26 10:06:29 2024
+// Host        : xps15-deb running 64-bit Debian GNU/Linux 12 (bookworm)
+// Command     : write_verilog -force -mode synth_stub
+//               /home/jo/Documents/classes/mse/lpsc/scalp_board_files/scalp_revc/hw_firmware/designs/vivado/scalp_user_design/2023.2/lin64/.scripts/scalp_zynqps/ip/scalp_zynqps_system_ila_0_0/scalp_zynqps_system_ila_0_0_stub.v
+// Design      : scalp_zynqps_system_ila_0_0
+// Purpose     : Stub declaration of top-level module interface
+// Device      : xc7z015clg485-2
+// --------------------------------------------------------------------------------
+
+// This empty module with port declaration file causes synthesis tools to infer a black box for IP.
+// The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
+// Please paste the declaration into a Verilog source file or add the file as an additional source.
+(* x_core_info = "bd_c0d9,Vivado 2023.2" *)
+module scalp_zynqps_system_ila_0_0(clk, probe0, probe1)
+/* synthesis syn_black_box black_box_pad_pin="probe0[0:0],probe1[0:0]" */
+/* synthesis syn_force_seq_prim="clk" */;
+  input clk /* synthesis syn_isclock = 1 */;
+  input [0:0]probe0;
+  input [0:0]probe1;
+endmodule

@@ -1,0 +1,17 @@
+#
+# An unexpected error has occurred (6)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x3c050) [0x7ff12bc5b050]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8ae2c) [0x7ff12bca9e2c]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x12) [0x7ff12bc5afb2]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x7ff12bc45472]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Default/libstdc++.so.6(+0x9d919) [0x7ff12ba9d919]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Default/libstdc++.so.6(+0xa8e1a) [0x7ff12baa8e1a]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Default/libstdc++.so.6(+0xa8e85) [0x7ff12baa8e85]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Default/libstdc++.so.6(__cxa_rethrow+0x4b) [0x7ff12baa912b]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/libtcmalloc.so.4(+0x17660) [0x7ff12d417660]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/libtcmalloc.so.4(tcmalloc::allocate_full_cpp_throw_oom(unsigned long)+0xfa) [0x7ff12d43556a]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/librdi_common.so(HI18N::Convert::Out(char const*, char const*, std::__cxx11::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, std::codecvt<wchar_t, char, __mbstate_t> const&)+0x57) [0x7ff12c7745b7]
+/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/librdi_labtools.so(Java_ui_data_labtools_lthwdatai_HWDevice_1getName+0x38) [0x7ff0f3d49cc8]
+[0x7ff0df28d3fc]
